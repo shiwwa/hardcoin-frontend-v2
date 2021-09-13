@@ -1,0 +1,186 @@
+/* line 4, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/content.scss */
+.banner-first-path {
+  background: url(../assets/image/Bitmap.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+  position: relative;
+}
+
+/* line 12, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/content.scss */
+.banner-second-path {
+  background: url(../assets/image/Head.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 1000px;
+}
+
+/* line 19, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/content.scss */
+.banner-text {
+  position: absolute;
+  width: 380px;
+  bottom: 300px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+}
+
+/* line 31, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/content.scss */
+.banner-link {
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 11%;
+  width: 420px;
+  color: white;
+}
+
+/* line 44, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/content.scss */
+.block-what-it {
+  background: url(../assets/image/WhatIs.png);
+  background-size: cover;
+  height: 792px;
+  width: 100%;
+}
+
+/* line 51, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/content.scss */
+.block-features {
+  background: url(../assets/image/Features.png);
+  background-size: cover;
+  height: 871px;
+  width: 100%;
+}
+
+/* line 58, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/content.scss */
+.block-video {
+  background: url(../assets/image/Video.png);
+  background-size: cover;
+  height: 700px;
+  position: relative;
+}
+
+/* line 64, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/content.scss */
+.block-video-window {
+  position: absolute;
+  left: 83px;
+  top: 82px;
+}
+
+/* line 71, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/content.scss */
+.block-how-it-work {
+  background: url(../assets/image/HowItWorks.png);
+  background-size: cover;
+  height: 1521px;
+  width: 100%;
+  position: relative;
+}
+
+/* line 78, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/content.scss */
+.block-how-it-work-link {
+  position: absolute;
+  left: 260px;
+  top: 600px;
+}
+
+/* line 84, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/content.scss */
+.block-how-it-work .block-how-it-real-work {
+  position: absolute;
+  left: 0;
+  bottom: 170px;
+  background: url(../assets/image/HowItRealWorks.png);
+  background-size: cover;
+  height: 512px;
+  width: 100%;
+}
+
+/* line 95, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/content.scss */
+.block-profitable {
+  background: url(../assets/image/Profitable.png);
+  background-size: cover;
+  height: 676px;
+  width: 100%;
+  position: relative;
+}
+
+/* line 102, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/content.scss */
+.block-profitable-button {
+  position: absolute;
+  left: 250px;
+  top: 272px;
+}
+
+/* line 107, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/content.scss */
+.block-profitable-button a {
+  text-decoration: none;
+}
+
+/* line 113, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/content.scss */
+.block-roadmap {
+  background: url(../assets/image/Roadmap.png);
+  background-size: cover;
+  height: 2500px;
+  width: 100%;
+}
+
+/* line 120, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/content.scss */
+.block-team {
+  background: url(../assets/image/Team.png);
+  background-size: cover;
+  height: 744px;
+  width: 100%;
+}
+
+/* line 127, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/content.scss */
+.block-team {
+  background: url(../assets/image/Logos.png);
+  background-size: cover;
+  height: 1700px;
+  width: 100%;
+}
+
+/* line 135, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/content.scss */
+.block-subscribe {
+  background: url(../assets/image/Subscribe.png);
+  background-size: cover;
+  height: 360px;
+  width: 100%;
+  position: relative;
+}
+
+/* line 142, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/content.scss */
+.block-subscribe-form {
+  position: absolute;
+  left: 430px;
+  bottom: 60px;
+}
+
+/* line 147, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/content.scss */
+.block-subscribe-form input {
+  border: 0;
+  width: 270px;
+  height: 50px;
+}
+
+/* line 152, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/content.scss */
+.block-subscribe-form input:focus-visible {
+  outline: 0;
+}
+
+/* line 157, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/content.scss */
+.block-subscribe-form-button {
+  background: url(../assets/image/Btn.png) no-repeat;
+  background-size: contain;
+  color: white;
+  height: 53px;
+  width: 240px;
+  padding: 0;
+  border: 0;
+}
+
+/*# sourceMappingURL=content.css.map */

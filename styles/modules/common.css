@@ -1,0 +1,102 @@
+/* line 2, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/common.scss */
+.menu-header {
+  background: url(../assets/image/Bg.png) no-repeat center;
+  height: 70px;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 13, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/common.scss */
+.menu-link {
+  width: 100px;
+  min-height: 57px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 22, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/common.scss */
+.menu-link::after {
+  content: '';
+  position: absolute;
+  right: -29px;
+  top: -10px;
+  width: 0;
+  height: 70px;
+  border: 1px solid transparent;
+  border-right: 1px solid red;
+  transform: rotate(45deg);
+}
+
+/* line 35, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/common.scss */
+.menu a {
+  text-decoration: none;
+  color: red;
+}
+
+/* line 39, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/common.scss */
+.menu a:hover {
+  color: red;
+}
+
+/* line 44, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/common.scss */
+.menu-button {
+  background: url(../assets/image/Btn.png) no-repeat;
+  background-size: contain;
+  height: 40px;
+  width: 180px;
+}
+
+/* line 50, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/common.scss */
+.menu-button a {
+  color: white;
+}
+
+/* line 53, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/common.scss */
+.menu-button a:hover {
+  color: white;
+}
+
+/* line 60, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/common.scss */
+footer {
+  background: url(../assets/image/Texture.png);
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+
+/* line 65, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/common.scss */
+footer .media-social {
+  height: 30px;
+}
+
+/* line 70, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/common.scss */
+.logo img {
+  width: 70%;
+  height: 100%;
+}
+
+/* line 75, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/common.scss */
+.banner-wishlist {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 12%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 84, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/common.scss */
+.hardcore-line {
+  background: url(../assets/image/Line.png) no-repeat;
+  background-size: contain;
+  max-width: 1400px;
+  height: 50px;
+}
+
+/*# sourceMappingURL=common.css.map */

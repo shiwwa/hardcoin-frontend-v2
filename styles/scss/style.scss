@@ -1,0 +1,269 @@
+@import './modules/fonts.scss';
+@import './modules/reset.scss';
+@import './modules/margin-padding-helper.scss';
+@import './modules/colors-helper.scss';
+@import './modules/global.scss';
+@import './modules/common.scss';
+// @import './modules/content.scss';
+@import './modules/social.scss';
+//@import './modules/common-title.scss';
+
+html body {
+  font-family: "Ruberoid";
+  background-color: black;
+}
+
+.banner {
+  &-first-path {
+    background: url(../assets/image/Bitmap.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    position: relative;
+  }
+
+  &-second-path {
+    background: url(../assets/image/Head.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 1000px;
+  }
+
+  &-text {
+    position: absolute;
+    width: 380px;
+    bottom: 300px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+  }
+
+  &-link {
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 11%;
+    width: 420px;
+    color: white;
+  }
+}
+
+.block-what-it {
+  color: white;
+
+  &-title {
+    background: url(../assets/image/WhatIsHardcroe/Title.png) no-repeat;
+    background-size: contain;
+    height: 282px;
+    width: 100%;
+    padding: 40px 0 0 150px;
+
+    h3 {
+      font-family: "TTSquaresCondensed";
+      font-size: 34px;
+      font-weight: 700;
+    }
+
+    p {
+      width: 50%;
+    }
+  }
+
+  &-content {
+    background: url(../assets/image/WhatIsHardcroe/Stats.png) no-repeat;
+    background-size: cover;
+    height: 741px;
+    width: 100%;
+  }
+
+  &-numbers {
+    font-size: 57px;
+    font-weight: 700;
+    font-family: "Ruberoid";
+    padding: 40px 0 0 150px;
+  }
+
+  &-subtext {
+    font-size: 19px;
+    font-weight: 600;
+    font-family: "Ruberoid";
+  }
+
+  &-icons {
+    font-size: 19px;
+    font-weight: 600;
+    padding: 60px 0 0 100px;
+
+    .country-icon {
+      background: url(../assets/image/WhatIsHardcroe/country.png) no-repeat;
+      background-size: contain;
+      height: 60px;
+      width: 140px;
+    }
+
+    .belt-icon {
+      background: url(../assets/image/WhatIsHardcroe/belt.png) no-repeat;
+      background-size: contain;
+      height: 60px;
+      width: 140px;
+    }
+
+    &-counter {
+      font-family: "TTSquaresCondensed";
+      font-size: 57px;
+      font-weight: 700;
+      color: red;
+    }
+  }
+}
+
+.block-features {
+  background: url(../assets/image/features/Features.png) no-repeat;
+  background-size: contain;
+  height: 871px;
+  color: white;
+  padding: 40px 0 0 150px;
+
+  h3 {
+    font-family: "TTSquaresCondensed";
+    font-size: 34px;
+    font-weight: 700;
+  }
+
+  &-subtitle {
+    width: 50%;
+  }
+
+  .block-features-items {
+    margin-top: 80px;
+
+    &-title {
+      font-size: 29px;
+      font-weight: 600;
+      margin-bottom: 50px;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      width: 320px;
+    }
+  }
+}
+
+.block-video {
+  background: url(../assets/image/Video.png);
+  background-size: cover;
+  height: 700px;
+  position: relative;
+
+  &-window {
+    position: absolute;
+    left: 83px;
+    top: 82px;
+    width: 86%;
+    height: 81%;
+  }
+}
+
+.block-how-it-work {
+  background: url(../assets/image/HowItWorks.png);
+  background-size: cover;
+  height: 1521px;
+  width: 100%;
+  position: relative;
+
+  &-link {
+    position: absolute;
+    left: 260px;
+    top: 600px;
+  }
+
+  .block-how-it-real-work {
+    position: absolute;
+    left: 0;
+    bottom: 170px;
+    background: url(../assets/image/HowItRealWorks.png);
+    background-size: cover;
+    height: 512px;
+    width: 100%;
+  }
+}
+
+.block-profitable {
+  background: url(../assets/image/Profitable.png);
+  background-size: cover;
+  height: 676px;
+  width: 100%;
+  position: relative;
+
+  &-button {
+    position: absolute;
+    left: 250px;
+    top: 272px;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.block-roadmap {
+  background: url(../assets/image/Roadmap.png);
+  background-size: cover;
+  height: 2500px;
+  width: 100%;
+}
+
+.block-team {
+  background: url(../assets/image/team/Bg.png);
+  background-size: cover;
+  height: 400px;
+
+  h3 {
+    font-size: 29px;
+    font-weight: 600;
+    color: white;
+    background: red;
+  }
+}
+
+.block-subscribe {
+  background: url(../assets/image/Subscribe.png);
+  background-size: cover;
+  height: 360px;
+  width: 100%;
+  position: relative;
+
+  &-form {
+    position: absolute;
+    left: 430px;
+    bottom: 60px;
+
+    input {
+      border: 0;
+      width: 270px;
+      height: 50px;
+
+      &:focus-visible {
+        outline: 0;
+      }
+    }
+
+    &-button {
+      background: url(../assets/image/Btn.png) no-repeat;
+      background-size: contain;
+      color: white;
+      height: 53px;
+      width: 240px;
+      padding: 0;
+      border: 0;
+    }
+  }
+}

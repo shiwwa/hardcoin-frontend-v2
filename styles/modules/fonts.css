@@ -1,0 +1,153 @@
+@font-face {
+  font-family: 'RuberoidOblique';
+  src: url("../assets/fonts/Ruberoid/Ruberoid-Oblique.eot");
+  src: local("Ruberoid Oblique"), local("Ruberoid-Oblique"), url("../assets/fonts/Ruberoid/Ruberoid-Oblique.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Ruberoid/Ruberoid-Oblique.woff2") format("woff2"), url("../assets/fonts/Ruberoid/Ruberoid-Oblique.woff") format("woff"), url("../assets/fonts/Ruberoid/Ruberoid-Oblique.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RuberoidExtra';
+  src: url("../assets/fonts/Ruberoid/Ruberoid-ExtraLight.eot");
+  src: local("Ruberoid Extra Light"), local("Ruberoid-ExtraLight"), url("../assets/fonts/Ruberoid/Ruberoid-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Ruberoid/Ruberoid-ExtraLight.woff2") format("woff2"), url("../assets/fonts/Ruberoid/Ruberoid-ExtraLight.woff") format("woff"), url("../assets/fonts/Ruberoid/Ruberoid-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RuberoidBoldOblique';
+  src: url("../assets/fonts/Ruberoid/Ruberoid-BoldOblique.eot");
+  src: local("Ruberoid Bold Oblique"), local("Ruberoid-BoldOblique"), url("../assets/fonts/Ruberoid/Ruberoid-BoldOblique.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Ruberoid/Ruberoid-BoldOblique.woff2") format("woff2"), url("../assets/fonts/Ruberoid/Ruberoid-BoldOblique.woff") format("woff"), url("../assets/fonts/Ruberoid/Ruberoid-BoldOblique.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Ruberoid';
+  src: url("../assets/fonts/Ruberoid/Ruberoid-Bold.eot");
+  src: local("Ruberoid Bold"), local("Ruberoid-Bold"), url("../assets/fonts/Ruberoid/Ruberoid-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Ruberoid/Ruberoid-Bold.woff2") format("woff2"), url("../assets/fonts/Ruberoid/Ruberoid-Bold.woff") format("woff"), url("../assets/fonts/Ruberoid/Ruberoid-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RuberoidLightOblique';
+  src: url("../assets/fonts/Ruberoid/Ruberoid-LightOblique.eot");
+  src: local("Ruberoid Light Oblique"), local("Ruberoid-LightOblique"), url("../assets/fonts/Ruberoid/Ruberoid-LightOblique.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Ruberoid/Ruberoid-LightOblique.woff2") format("woff2"), url("../assets/fonts/Ruberoid/Ruberoid-LightOblique.woff") format("woff"), url("../assets/fonts/Ruberoid/Ruberoid-LightOblique.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RuberoidExtra';
+  src: url("../assets/fonts/Ruberoid/Ruberoid-ExtraBold.eot");
+  src: local("Ruberoid Extra Bold"), local("Ruberoid-ExtraBold"), url("../assets/fonts/Ruberoid/Ruberoid-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Ruberoid/Ruberoid-ExtraBold.woff2") format("woff2"), url("../assets/fonts/Ruberoid/Ruberoid-ExtraBold.woff") format("woff"), url("../assets/fonts/Ruberoid/Ruberoid-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RuberoidExtraBoldOblique';
+  src: url("../assets/fonts/Ruberoid/Ruberoid-ExtraBoldOblique.eot");
+  src: local("Ruberoid Extra Bold Oblique"), local("Ruberoid-ExtraBoldOblique"), url("../assets/fonts/Ruberoid/Ruberoid-ExtraBoldOblique.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Ruberoid/Ruberoid-ExtraBoldOblique.woff2") format("woff2"), url("../assets/fonts/Ruberoid/Ruberoid-ExtraBoldOblique.woff") format("woff"), url("../assets/fonts/Ruberoid/Ruberoid-ExtraBoldOblique.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RuberoidMediumOblique';
+  src: url("../assets/fonts/Ruberoid/Ruberoid-MediumOblique.eot");
+  src: local("Ruberoid Medium Oblique"), local("Ruberoid-MediumOblique"), url("../assets/fonts/Ruberoid/Ruberoid-MediumOblique.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Ruberoid/Ruberoid-MediumOblique.woff2") format("woff2"), url("../assets/fonts/Ruberoid/Ruberoid-MediumOblique.woff") format("woff"), url("../assets/fonts/Ruberoid/Ruberoid-MediumOblique.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Ruberoid';
+  src: url("../assets/fonts/Ruberoid/Ruberoid-Light.eot");
+  src: local("Ruberoid Light"), local("Ruberoid-Light"), url("../assets/fonts/Ruberoid/Ruberoid-Light.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Ruberoid/Ruberoid-Light.woff2") format("woff2"), url("../assets/fonts/Ruberoid/Ruberoid-Light.woff") format("woff"), url("../assets/fonts/Ruberoid/Ruberoid-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RuberoidExtraLightOblique';
+  src: url("../assets/fonts/Ruberoid/Ruberoid-ExtraLightOblique.eot");
+  src: local("Ruberoid Extra Light Oblique"), local("Ruberoid-ExtraLightOblique"), url("../assets/fonts/Ruberoid/Ruberoid-ExtraLightOblique.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Ruberoid/Ruberoid-ExtraLightOblique.woff2") format("woff2"), url("../assets/fonts/Ruberoid/Ruberoid-ExtraLightOblique.woff") format("woff"), url("../assets/fonts/Ruberoid/Ruberoid-ExtraLightOblique.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Ruberoid';
+  src: url("../assets/fonts/Ruberoid/Ruberoid-Medium.eot");
+  src: local("Ruberoid Medium"), local("Ruberoid-Medium"), url("../assets/fonts/Ruberoid/Ruberoid-Medium.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Ruberoid/Ruberoid-Medium.woff2") format("woff2"), url("../assets/fonts/Ruberoid/Ruberoid-Medium.woff") format("woff"), url("../assets/fonts/Ruberoid/Ruberoid-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RuberoidSemiBoldOblique';
+  src: url("../assets/fonts/Ruberoid/Ruberoid-SemiBoldOblique.eot");
+  src: local("Ruberoid Semi Bold Oblique"), local("Ruberoid-SemiBoldOblique"), url("../assets/fonts/Ruberoid/Ruberoid-SemiBoldOblique.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Ruberoid/Ruberoid-SemiBoldOblique.woff2") format("woff2"), url("../assets/fonts/Ruberoid/Ruberoid-SemiBoldOblique.woff") format("woff"), url("../assets/fonts/Ruberoid/Ruberoid-SemiBoldOblique.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RuberoidThinOblique';
+  src: url("../assets/fonts/Ruberoid/Ruberoid-ThinOblique.eot");
+  src: local("Ruberoid Thin Oblique"), local("Ruberoid-ThinOblique"), url("../assets/fonts/Ruberoid/Ruberoid-ThinOblique.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Ruberoid/Ruberoid-ThinOblique.woff2") format("woff2"), url("../assets/fonts/Ruberoid/Ruberoid-ThinOblique.woff") format("woff"), url("../assets/fonts/Ruberoid/Ruberoid-ThinOblique.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RuberoidSemi';
+  src: url("../assets/fonts/Ruberoid/Ruberoid-SemiBold.eot");
+  src: local("Ruberoid Semi Bold"), local("Ruberoid-SemiBold"), url("../assets/fonts/Ruberoid/Ruberoid-SemiBold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Ruberoid/Ruberoid-SemiBold.woff2") format("woff2"), url("../assets/fonts/Ruberoid/Ruberoid-SemiBold.woff") format("woff"), url("../assets/fonts/Ruberoid/Ruberoid-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ruberoid';
+  src: url("Ruberoid-Thin.eot");
+  src: local("Ruberoid Thin"), local("Ruberoid-Thin"), url("../assets/fonts/Ruberoid/Ruberoid-Thin.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Ruberoid/Ruberoid-Thin.woff2") format("woff2"), url("../assets/fonts/Ruberoid/Ruberoid-Thin.woff") format("woff"), url("../assets/fonts/Ruberoid/Ruberoid-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ruberoid';
+  src: url("../assets/fonts/Ruberoid/Ruberoid-Regular.eot");
+  src: local("Ruberoid"), local("Ruberoid-Regular"), url("../assets/fonts/Ruberoid/Ruberoid-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Ruberoid/Ruberoid-Regular.woff2") format("woff2"), url("../assets/fonts/Ruberoid/Ruberoid-Regular.woff") format("woff"), url("../assets/fonts/Ruberoid/Ruberoid-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RuberoidUltraLightOblique';
+  src: url("../assets/fonts/Ruberoid/Ruberoid-UltraLightOblique.eot");
+  src: local("Ruberoid Ultra Light Oblique"), local("Ruberoid-UltraLightOblique"), url("../assets/fonts/Ruberoid/Ruberoid-UltraLightOblique.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Ruberoid/Ruberoid-UltraLightOblique.woff2") format("woff2"), url("../assets/fonts/Ruberoid/Ruberoid-UltraLightOblique.woff") format("woff"), url("../assets/fonts/Ruberoid/Ruberoid-UltraLightOblique.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RuberoidUltra';
+  src: url("../assets/fonts/Ruberoid/Ruberoid-UltraLight.eot");
+  src: local("Ruberoid Ultra Light"), local("Ruberoid-UltraLight"), url("../assets/fonts/Ruberoid/Ruberoid-UltraLight.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Ruberoid/Ruberoid-UltraLight.woff2") format("woff2"), url("../assets/fonts/Ruberoid/Ruberoid-UltraLight.woff") format("woff"), url("../assets/fonts/Ruberoid/Ruberoid-UltraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTSquaresCondensed';
+  src: url("../assets/fonts/TTSquaresCondensed/TTSquaresCondensed-BlackItalic.eot");
+  src: local("TTSquaresCondensedBlackItalic"), local("TTSquaresCondensed-BlackItalic"), url("../assets/fonts/TTSquaresCondensed/TTSquaresCondensed-BlackItalic.eot") format("embedded-opentype"), url("../assets/fonts/TTSquaresCondensed/TTSquaresCondensed-BlackItalic.woff2") format("woff2"), url("../assets/fonts/TTSquaresCondensed/TTSquaresCondensed-BlackItalic.woff") format("woff"), url("../assets/fonts/TTSquaresCondensed/TTSquaresCondensed-BlackItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=fonts.css.map */

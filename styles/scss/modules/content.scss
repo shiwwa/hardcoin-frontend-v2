@@ -1,0 +1,167 @@
+
+
+.banner {
+    &-first-path {
+      background: url(../assets/image/Bitmap.png) no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 1000px;
+      position: relative;
+    }
+  
+    &-second-path {
+      background: url(../assets/image/Head.png) no-repeat;
+      background-size: contain;
+      background-position: center;
+      height: 1000px;
+    }
+  
+    &-text {
+      position: absolute;
+      width: 380px;
+      bottom: 300px;
+      left: 0; 
+      right: 0; 
+      margin-left: auto; 
+      margin-right: auto;
+      color: white;
+      text-align: center;
+    }
+  
+    &-link {
+      display: flex;
+      position: absolute;
+      left: 0; 
+      right: 0;
+      margin-left: auto; 
+      margin-right: auto;
+      bottom: 11%;
+      width: 420px;
+      color: white;
+    }
+  }
+  
+  .block-what-it {
+    background: url(../assets/image/WhatIs.png);
+    background-size: cover;
+    height: 792px;
+    width: 100%;
+  }
+  
+  .block-features {
+    background: url(../assets/image/Features.png);
+    background-size: cover;
+    height: 871px;
+    width: 100%;
+  }
+  
+  .block-video {
+    background: url(../assets/image/Video.png);
+    background-size: cover;
+    height: 700px;
+    position: relative;
+  
+    &-window {
+      position: absolute;
+      left: 83px;
+      top: 82px;
+    }
+  }
+  
+  .block-how-it-work {
+    background: url(../assets/image/HowItWorks.png);
+    background-size: cover;
+    height: 1521px;
+    width: 100%;
+    position: relative;
+  
+    &-link {
+      position: absolute;
+      left: 260px;
+      top: 600px;
+    }
+
+    .block-how-it-real-work {
+      position: absolute;
+      left: 0;
+      bottom: 170px;
+      background: url(../assets/image/HowItRealWorks.png);
+      background-size: cover;
+      height: 512px;
+      width: 100%;
+    }
+  }
+  
+  .block-profitable {
+    background: url(../assets/image/Profitable.png);
+    background-size: cover;
+    height: 676px;
+    width: 100%;
+    position: relative;
+
+    &-button {
+      position: absolute;
+      left: 250px;
+      top: 272px;
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+  
+  .block-roadmap {
+    background: url(../assets/image/Roadmap.png);
+    background-size: cover;
+    height: 2500px;
+    width: 100%;
+  }
+  
+  .block-team {
+    background: url(../assets/image/Team.png);
+    background-size: cover;
+    height: 744px;
+    width: 100%;
+  }
+  
+  .block-team {
+    background: url(../assets/image/Logos.png);
+    background-size: cover;
+    height: 1700px;
+    width: 100%;
+  }
+
+
+  .block-subscribe {
+    background: url(../assets/image/Subscribe.png);
+    background-size: cover;
+    height: 360px;
+    width: 100%;
+    position: relative;
+  
+    &-form {
+      position: absolute;
+      left: 430px;
+      bottom: 60px;
+  
+      input {
+        border: 0;
+        width: 270px;
+        height: 50px;
+  
+        &:focus-visible {
+          outline: 0;
+        }
+      }
+  
+      &-button {
+        background: url(../assets/image/Btn.png) no-repeat;
+        background-size: contain;
+        color: white;
+        height: 53px;
+        width: 240px;
+        padding: 0;
+        border: 0;
+      }
+    }
+  }

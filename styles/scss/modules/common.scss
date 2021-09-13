@@ -1,0 +1,89 @@
+.menu {
+    &-header {
+        background: url(../assets/image/Bg.png) no-repeat center;
+        height: 70px;
+        position: absolute;
+        z-index: 1; 
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto;
+    }
+  
+    &-link {
+        width: 100px;
+        min-height: 57px;
+        text-align: center;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        &::after {
+            content: '';
+            position: absolute;
+            right: -29px;
+            top: -10px;
+            width: 0;
+            height: 70px;
+            border: 1px solid transparent;
+            border-right: 1px solid red;
+            transform: rotate(45deg);
+        }
+    }
+  
+    a {
+        text-decoration: none;
+        color: red;
+    
+        &:hover {
+            color: red;
+        }
+    }
+  
+    &-button {
+        background: url(../assets/image/Btn.png) no-repeat;
+        background-size: contain;
+        height: 40px;
+        width: 180px;
+        
+        a {
+            color: white;
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}
+  
+footer {
+    background: url(../assets/image/Texture.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+
+    .media-social {
+        height: 30px;
+    }
+}
+
+.logo img {
+    width: 70%;
+    height: 100%;
+}
+
+.banner-wishlist {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 12%;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.hardcore-line {
+    background: url(../assets/image/Line.png) no-repeat;
+    background-size: contain;
+    max-width: 1400px;
+    height: 50px;
+}
