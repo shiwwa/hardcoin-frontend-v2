@@ -5927,6 +5927,39 @@ p {
   .media {
     display: block !important;
   }
+  .map-list {
+    left: 0;
+  }
+  .block-how-really-work {
+    padding-top: 30px;
+  }
+  .block-how-it-work-row {
+    padding-left: 0;
+  }
+  .block-how-really-work-title label {
+    font-size: 18px;
+  }
+  .block-map-row {
+    margin-bottom: 30px;
+  }
+  .road-map-list {
+    padding-bottom: 30px;
+  }
+  .block-command-row {
+    padding-bottom: 30px;
+  }
+  .block-board-row {
+    margin-bottom: 30px;
+  }
+  .media.d-flex {
+    display: block !important;
+  }
+  .media-social {
+  margin-top: 20px;
+  }
+  .block-partners-row img:last-child{
+    width: 120px;
+  }
 }
 @media (max-width: 375px) {
   .block-features .block-features-items-title {
