@@ -4980,7 +4980,8 @@ html body {
   opacity: 0.25;
   -webkit-filter: blur(50px);
   filter: blur(50px);
-  background-color: #f00;;
+  background-color: #f00;
+  z-index: -1;
 }
 /* line 57, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/style.scss */
 .block-what-it {
