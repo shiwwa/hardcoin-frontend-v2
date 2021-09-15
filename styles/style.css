@@ -5960,6 +5960,21 @@ p {
   .block-partners-row img:last-child{
     width: 120px;
   }
+  .menu {
+    flex-wrap: wrap;
+  }
+  .menu-link {
+    width: 32%;
+    min-height: 35px;
+    margin: 0 !important;
+  }
+  .menu-button {
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .menu-link::after {
+    content: none;
+  }
 }
 @media (max-width: 375px) {
   .block-features .block-features-items-title {
