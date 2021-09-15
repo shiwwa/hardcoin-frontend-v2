@@ -4792,8 +4792,22 @@ footer .media-social {
   bottom: 10%;
   margin-left: auto;
   margin-right: auto;
+  max-width: 700px;
+  text-align: center;
+  color: #fff;  background: url(../assets/image/registr-bg.png) no-repeat;
+  background-size: cover;
+  height: 90px;
+  padding-top: 32px;
+  font-size: 24px;
 }
-
+/*.banner-wishlist:after {*/
+/*  content: '';*/
+/*  display: block;*/
+/*  height: 80px;*/
+/*  width: 700px;*/
+/*  background: url(../assets/image/registr-bg.png) no-repeat;*/
+/*  background-size: cover;*/
+/*}*/
 /* line 84, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/common.scss */
 .hardcore-line {
   background: url(../assets/image/Line.png) no-repeat;
@@ -5049,24 +5063,25 @@ html body {
 }
 /* line 126, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/style.scss */
 .block-features {
-  background: url(../assets/image/features/Features.png) no-repeat;
-  background-size: contain;
-  height: 871px;
+  /*background: url(../assets/image/features/Features.png) no-repeat;*/
+  /*background-size: contain;*/
+  /*height: 871px;*/
   color: white;
-  padding: 40px 0 0 150px;
 }
-
+.block-features-title {
+  background: url(../assets/image/WhatIsHardcroe/Title.png) no-repeat;
+  background-size: 100% 280px;
+  width: 100%;
+  padding: 40px 0 0 200px;
+}
+.block-features-title h2 {
+  color: #fff;
+}
 /* line 133, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/style.scss */
 .block-features h3 {
   font-family: "TTSquaresCondensed";
   font-size: 34px;
   font-weight: 700;
-}
-.block-features h2 {
-  padding-left: 50px;
-}
-.block-features-subtitle {
-  padding-left: 50px;
 }
 /* line 139, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/style.scss */
 .block-features-subtitle {
@@ -5076,15 +5091,26 @@ html body {
 /* line 143, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/style.scss */
 .block-features .block-features-items {
   margin-top: 80px;
+  background: url(../assets/image/features/features.png) no-repeat;
+  background-size: cover;
+  background-position: 0 -140px;
+  padding-left: 50px;
+
 }
 
 /* line 146, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/style.scss */
 .block-features .block-features-items-title {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 400;
   margin-bottom: 50px;
   margin-top: 15px;
   text-transform: uppercase;
+  background: url(../assets/image/name-bg.svg) no-repeat;
+  background-size: cover;
+  /* width: 417px; */
+  height: 61px;
+  padding: 17px 84px 0 0;
+  padding-left: 66px;
 }
 
 /* line 152, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/style.scss */
@@ -5092,6 +5118,18 @@ html body {
   font-size: 16px;
   font-weight: 400;
   width: 320px;
+  display: flex;
+}
+.block-features .block-features-items p:before {
+  content: '';
+  min-width: 15px;
+  height: 5px;
+  background: url(../assets/image/list.png) no-repeat;
+  background-size: contain;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 6px;
+  margin-right: 20px;
 }
 
 /* line 160, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/style.scss */
@@ -5199,11 +5237,10 @@ html body {
 }
 
 .block-how-it-work-row {
-  padding: 330px 0 0 100px;
+  padding: 280px 0 0 100px;
   background: url(../assets/image/howItWorks.png);
   background-size: cover;
-  height: 1557px;
-  background-position-y: -171px;
+  background-position-y: -202px;
   position: relative;
   top: -40px;
 }
@@ -5279,27 +5316,72 @@ html body {
   margin-left: 15% !important;
 }
 /* line 199, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/style.scss */
-.block-profitable {
-  background: url(../assets/image/Profitable.png);
-  background-size: cover;
-  height: 676px;
-  width: 100%;
-  position: relative;
-}
+/*.block-profitable {*/
+/*  background: url(../assets/image/Profitable.png);*/
+/*  background-size: cover;*/
+/*  height: 676px;*/
+/*  width: 100%;*/
+/*  position: relative;*/
+/*}*/
 
 /* line 206, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/style.scss */
-.block-profitable-button {
-  position: absolute;
-  left: 250px;
-  top: 272px;
-}
+/*.block-profitable-button {*/
+/*  position: absolute;*/
+/*  left: 250px;*/
+/*  top: 272px;*/
+/*}*/
 
-/* line 211, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/style.scss */
+/*!* line 211, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/style.scss *!*/
+.block-profitable {
+  padding-bottom: 100px;
+}
+.block-profitable-button {
+  margin-top: 60px;
+  margin-left: 200px;
+}
 .block-profitable-button a {
   text-decoration: none;
 }
-
-/* line 217, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/style.scss */
+.block-profitable-title {
+  background: url(../assets/image/WhatIsHardcroe/Title.png) no-repeat;
+  background-size: 100% 280px;
+  height: 282px;
+  width: 100%;
+  padding: 40px 0 0 200px;
+}
+.block-profitable-title h2 {
+  color: #fff;
+}
+.block-profitable-title p {
+  width: 50%;
+  color: #fff;
+  line-height: 1.56;
+  font-size: 19px;
+}
+.block-profitable-row {
+  justify-content: space-between;
+  padding-top: 65px;
+}
+.block-profitable-row li {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  width: 22%;
+  position: relative;
+  padding-left: 60px;
+}
+.block-profitable-row li:before {
+  content: '';
+  width: 28px;
+  height: 38px;
+  background: url(../assets/image/arrow.png) no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+  /* line 217, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/style.scss */
 .block-roadmap {
   background: url(../assets/image/Roadmap.png);
   background-size: cover;
@@ -5498,8 +5580,19 @@ html body {
   font-weight: 500;
   color: #fff;
   padding: 0 65px 0 0;
+  position: relative;
 }
-
+.road-map-list__date:after {
+  content: '';
+  width: 120px;
+  height: 120px;
+  background: url(../assets/image/NFC.png) no-repeat;
+  background-size: 120px;
+  display: inline-block;
+  position: absolute;
+  right: 42px;
+  top: -20px;
+}
 .road-map-list__info {
   width: 54%;
   display: flex;
@@ -5518,6 +5611,11 @@ html body {
 
 p {
   line-height: 1.58;
+}
+.block-partners {
+  background: url(../assets/image/media-bg.png) no-repeat;
+  background-size: cover;
+  background-position-y: 10px;
 }
 .block-partners-row {
   margin-top: 115px !important;
@@ -5594,6 +5692,11 @@ p {
   line-height: 1.56;
   font-weight: 400;
 }
+.block-board {
+  background: url(../assets/image/media-bg.png) no-repeat;
+  background-size: cover;
+  background-position-y: 10px;
+}
 .block-board-row {
   margin: 100px 0 180px !important;
   display: flex;
@@ -5611,4 +5714,224 @@ p {
   width: 25%;
   display: block;
   padding-left: 80px;
+}
+@media (max-width: 1200px) {
+
+  .special-margin {
+    margin: 0 !important;
+  }
+  .block-features .block-features-items-title {
+    background-size: contain;
+    width: 370px;
+    height: 61px;
+    padding: 15px 0 0 0;
+    padding-left: 66px;
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .block-what-it-title p {
+    width: 100%;
+    padding-right: 30px;
+  }
+  .block-what-it-content {
+    height: auto;
+    padding-bottom: 60px;
+  }
+  .block-what-it-content .d-flex {
+    display: block !important;
+  }
+  .block-what-it-numbers {
+    width: 100% !important;
+  }
+  .block-what-it-icons {
+    padding-left: 200px;
+  }
+  .block-what-it-title {
+    height: auto;
+  }
+  .block-features-subtitle {
+    width: 100%;
+    padding-right: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .banner-wishlist {
+    bottom: 18%;
+    font-size: 18px;
+    background-size: contain;
+    padding-top: 20px;
+  }
+  .banner-link {
+    display: block;
+    margin: 0 auto;
+
+  }
+  .banner-link div {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 15px!important;
+  }
+  .banner-link:after {
+    height: 150px;
+  }
+  .block-what-it-title {
+    padding-left: 50px;
+  }
+  h2 {
+    font-size: 22px !important;
+  }
+  .block-what-it-title {
+    padding-top: 50px;
+  }
+  .block-what-it-icons {
+    padding-left: 50px;
+  }
+  .block-what-it-numbers {
+    padding-left: 50px;
+  }
+  .block-what-it-numbers .flex-start {
+    display: block;
+    font-size: 10px;
+  }
+  .block-what-it-title {
+    background-size: auto;
+  }
+  .block-features-title {
+    background-size: auto;
+    padding-left: 50px;
+  }
+  .block-features .block-features-items {
+    background-position: center;
+  }
+  .block-features .block-features-items-title {
+    /*padding-top: 50px;*/
+  }
+  .block-video-window {
+    left: 5%;
+  }
+  .block-how-it-work-row {
+    padding-top: 100px;
+    padding-left: 50px;
+  }
+  .block-how-it-work-row .row {
+    padding-left: 0;
+  }
+  .block-how-it-work-row .offset-3{
+    margin: 0 !important;
+  }
+  .block-how-it-work-list {
+    padding: 20px 0 0;
+  }
+  .block-how-really-work-row {
+    display: block;
+  }
+  .block-how-really-work-list {
+    margin: 0 !important;
+    width: 100%;
+  }
+  .block-map-row {
+    padding-top: 40px;
+  }
+  .block-map-row {
+    display: block;
+  }
+  .block-map-row ul {
+    width: 100%;
+    margin: 0;
+  }
+  .block-title p {
+    width: 100%;
+    padding-right: 20px;
+  }
+  .block-title {
+    padding-left: 30px;
+  }
+  .block-profitable-title {
+    padding-left: 50px;
+    height: auto;
+    background-size: auto;
+  }
+  .block-profitable-title p {
+    width: 100%;
+  }
+  .block-profitable-row {
+    display: block;
+  }
+  .block-profitable-row li{
+    width: 100%;
+  }
+  .block-roadmap-title {
+    padding-left: 50px;
+    background-size: auto;
+  }
+  .road-map-list {
+    padding-left: 0;
+  }
+  .road-map-list::before {
+    content: none;
+  }
+  .road-map-list__date:after {
+    content: none;
+  }
+  .road-map-list__item {
+    display: block;
+    padding-left: 20px;
+  }
+  .road-map-list__info {
+    width: 100%;
+    display: block;
+  }
+  .road-map-list__info .common-list {
+    width: 100%;
+  }
+  .block-command-row {
+    display: block;
+    padding-left: 30px;
+  }
+  .block-command-row div {
+    width: 100%;
+  }
+  .block-subscribe {
+    display: none;
+  }
+  .block-what-it-title {
+    height: 170px;
+    background-size: auto;
+  }
+  .block-partners-row div {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .block-partners-row {
+  display: block;
+  }
+  .block-media-row {
+    display: block;
+  }
+  .block-media-row div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .block-media-row .small-img {
+    width: 100%;
+  }
+  .block-board-row {
+    display: block;
+  }
+  .block-board-row span {
+    width: 100%;
+    padding: 20px 0 0;
+  }
+  .media {
+    display: block !important;
+  }
+}
+@media (max-width: 375px) {
+  .block-features .block-features-items-title {
+    font-size: 16px;
+    width: 320px;
+  }
 }
