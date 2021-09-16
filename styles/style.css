@@ -6209,6 +6209,9 @@ p {
   .block-subscribe-form input {
     width: 340px;
   }
+  .menu.desktop {
+    display: none;
+  }
 }
 @media (max-width: 680px) {
   .block-how-it-work-row {
@@ -6251,5 +6254,17 @@ p {
   }
   .road-map-list__item {
     padding-left: 30px;
+  }
+  .button-google-store,
+  .button-app-store {
+    width: 100px;
+  }
+}
+
+@media  (max-width: 360px) {
+
+  .button-google-store,
+  .button-app-store {
+    width: 80px;
   }
 }

@@ -23,5 +23,8 @@
     "npm": "^6.9.0"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "i18n-js": "^3.8.0"
+  }
 }
