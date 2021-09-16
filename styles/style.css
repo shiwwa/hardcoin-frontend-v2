@@ -6212,6 +6212,9 @@ p {
   .menu.desktop {
     display: none;
   }
+  footer .menu {
+    display: none;
+  }
 }
 @media (max-width: 680px) {
   .block-how-it-work-row {
