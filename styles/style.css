@@ -5811,8 +5811,6 @@ p {
     font-size: 19px;
   }
   .block-video-window {
-    left: 78px;
-    top: 81px;
     width: 67.5%;
     position: static;
     height: 86%;
@@ -5935,9 +5933,6 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  .block-video-window {
-    left: 5%;
   }
   .block-how-it-work-row {
     padding-top: 100px;
@@ -6156,6 +6151,7 @@ p {
   }
   .block-video-window {
     width: 100%;
+    height: auto;
   }
   .block-video {
     height: auto;
@@ -6163,6 +6159,13 @@ p {
   }
   .block-how-really-work-row {
     padding-top: 20px;
+  }
+  .block-how-it-work-row .offset-3 {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
   }
   .block-what-it-banner {
     margin-top: 20px;
@@ -6236,7 +6239,7 @@ p {
     display: none;
   }
   .block-how-it-work-row .block-what-it-banner div {
-      width: 170px;
+      width: 120px;
   }
 }
 @media (max-width: 414px) {
