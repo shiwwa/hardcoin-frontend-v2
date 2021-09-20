@@ -23,10 +23,22 @@
     color: #fff;
     font-size: 20px;
 }
-.really-image {
-    padding-bottom: 140px;
-}
 .really-image img {
     width: 100%;
     padding-left: 21%;
+}
+
+@media (max-width: 1024px) {
+     .block-what-it-content-row {
+         width: 100%;
+     }
+    .block-what-it-content {
+        flex-wrap: wrap;
+    }
+    .block-what-it-numbers {
+        font-size: 32px;
+    }
+    .block-what-it-text {
+        font-size: 16px;
+    }
 }

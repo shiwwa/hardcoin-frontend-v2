@@ -83,3 +83,32 @@
     display: flex;
     align-items: center;
 }
+@media (max-width: 1024px) {
+    .roadmap {
+        padding-top: 100px;
+    }
+    .road-map-list__item {
+        padding-top: 20px;
+    }
+    .road-map-list {
+        padding: 0;
+        margin-top: 30px;
+    }
+    .road-map-list__date {
+        width: 100%;
+    }
+    .road-map-list__date:after {
+        content: none;
+    }
+    .road-map-list::before {
+        content: none;
+    }
+    .road-map-list__info {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .road-map-list__info .common-list {
+        width: 100%;
+        padding: 0;
+    }
+}

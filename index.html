@@ -14,12 +14,12 @@
 <body>
 <div class="wrapper">
     <Header class="container-fluid">
-        <div class="col flex-space-between align-center  menu menu-header mt-4">
+        <div class="desktop-menu col flex-space-between align-center  menu menu-header mt-4">
             <div class="logo">
                 <a href="#"><img alt="Logo" src="assets/image/logo.svg"/></a>
             </div>
             <div class="menu-link">
-                <a data-i18n="WHAT_IS_HARDCORE" href="#what_is">Что такое Hardcore</a>
+                <a href="#what_is">Что такое Hardcore</a>
             </div>
             <div class="menu-link">
                 <a href="#how_it_work">КАК ЭТО РАБОТАЕТ</a>
@@ -37,13 +37,44 @@
                 <a href="assets/image/pdf/Hardcore.pdf" target="_blank">Презентация</a>
             </div>
         </div>
+        <div class="mobile-menu">
+            <div class="col flex-space-between align-center  menu menu-header mt-4 ">
+                <div onclick="changeStyle()"  class="burger-menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                        <path d="M7.94995 35.95H39.95M7.94995 11.95H39.95H7.94995ZM7.94995 23.95H39.95H7.94995Z" stroke="#FC1531" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="sidebar">
+                    <div class="menu-link">
+                        <a href="#what_is">Что такое Hardcore</a>
+                    </div>
+                    <div class="menu-link">
+                        <a href="#how_it_work">КАК ЭТО РАБОТАЕТ</a>
+                    </div>
+                    <div class="menu-link">
+                        <a href="#how_it_real_work">Платформа</a>
+                    </div>
+                    <div class="menu-link">
+                        <a href="#profitable">ПОЧЕМУ ИНВЕСТИРОВАТЬ</a>
+                    </div>
+                    <div class="menu-link">
+                        <a href="#roadmap">РОАДМАП</a>
+                    </div>
+                    <div class="menu-button flex-center">
+                        <a href="assets/image/pdf/Hardcore.pdf" target="_blank">Презентация</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </Header>
-    <main class="pa-0">
+    <main>
         <div class="banner-first-path">
             <div class="big-container">
                 <div class="banner-content">
                     <h1 class="banner-text title">HARDCORE FIGHTING PLATFORM</h1>
-                    <p  class="banner-text">Первая в мире блокчейн медиа-платформа объединяющая многомиллионную аудиторию поклонников единоборств со всего мира</p>
+                    <p  class="banner-text">
+                        Первая в мире блокчейн медиа-платформа объединяющая миллионы поклонников единоборств со всего мира</p>
                     <span  class="banner-link">
                         <a href="#">
                             <div data-aos="zoom-in" data-aos-duration="1200" class="button-google-store"></div>
@@ -61,9 +92,9 @@
                 <div id="what_is" class="block-what-it block-padding">
                     <div data-aos="fade-right" class="title-wrapper title-sm-wrapper">
                         <label class="content-title">Что такое Hardcore FC?</label>
-                        <p class="content-text">Hardcore Media — крупнейшее в мире реалити-шоу единоборств. Турниры транслируются на канале YouTube,
-                            собирая многомиллионную аудиторию по всему миру.</br></br> Платформа HFC уже завоевала рынок
-                             РФ  и  СНГ и  активно расширяется в странах Азии, Ближнего Востока.</p>
+                        <p class="content-text">Hardcore Media — является крупнейшим в мире реалити-шоу посвященное единоборствам.
+                            Трансляция турниров регулярно проходит на собственном канале YouTube, каждый раз собирая многомиллионную аудиторию со всего мира.
+                           </br></br> Платформа HFC уже завоевала рынок РФ и СНГ, и активно расширяется в странах Азии и Ближнего Востока.</p>
                     </div>
                     <div class="block-what-it-content flex-space-between">
                         <div class="block-what-it-content-row">
@@ -93,8 +124,8 @@
                     </div>
                 </div>
             </div>
-            <div class="block-ecosystem">
-                <div class="medium-container block-padding">
+            <div class="block-ecosystem block-padding">
+                <div class="medium-container">
                     <div class="title-wrapper title-sm-wrapper">
                         <label class="content-title">Экосистема Hardcore FC</label>
                         <p class="content-text">Объединяет мир единоборств с миром цифровых технологий.</p>
@@ -103,11 +134,11 @@
                         <div data-aos="fade-down" data-aos-duration="800" class="block-ecosystem-list block-ecosystem-list-red">
                             <label class="block-ecosystem-list-title">Для</br> поклонников</label>
                             <ul>
-                                <li>Участие в съемках турниров (ивентов) и конференций.</li>
-                                <li>Возможность приобретать эксклюзивные товары.</li>
-                                <li>Возможность принимать участие в формировании противостояний.</li>
-                                <li>Возможность получить доступ к эксклюзивному контенту (бои, которые не вошли в выпуск, закулисный контент,
-                                    полные версии профайлов бойцов и пр.).</li>
+                                <li>Личное участие в съемках турниров, мероприятий и конференций.</li>
+                                <li>Доступ к приобретению эксклюзивных продуктов.</li>
+                                <li>Возможность влиять на рейтинг бойцов, формирование турнирной таблицы и драфты.</li>
+                                <li>Доступ к эксклюзивному контенту: бои, которые не вошли в выпуск,
+                                    закрытые бои, закулисный контент, полные версии профайлов бойцов и многое другое .</li>
                             </ul>
                         </div>
                     </div>
@@ -115,11 +146,12 @@
                         <div data-aos="fade-up" data-aos-duration="1600" class="block-ecosystem-list block-ecosystem-list-blue">
                             <label class="block-ecosystem-list-title">Для</br> партнеров</label>
                             <ul>
-                                <li>Вознаграждение от вклада в популярный медиабизнес с миллионной аудиторией..</li>
-                                <li>Рост аудитории за счет развития боевых видов спорта и цифровых технологий.</li>
-                                <li>Вы можете внести свой вклад в развитие Hardcore FC  по всему миру.</li>
-                                <li>Участвовать во всех тематических и спонсорских боях.</li>
-                                <li>Укрепление собственного бренда в медиа пространстве за счет коллаборации с Hardcore Figthing Championship.</li>
+                                <li>Широкий перечень бонусов от вклада в популярный медиабизнес с миллионной аудиторией.</li>
+                                <li>Привлечение внимания целевой аудитории к своему продукту, и её прогнозируемое развитие
+                                    за счет активного роста популярности боевых видов спорта и цифровых технологий.</li>
+                                <li>Участие в боях: в качестве титульного спонсора, медиапартнера, мецената.</li>
+                                <li>Укрепление собственного бренда в медиапространстве за счет коллаборации с Hardcore Figthing Championship.</li>
+                                <li>Возможность масштабирования бизнеса, благодаря освещению в международном медиапространстве.</li>
                             </ul>
                         </div>
                     </div>
@@ -128,12 +160,12 @@
             <div class="block-video-image">
                 <img src="assets/image/video.png"/>
             </div>
-            <div id="how_it_work" class="block-how-it-work">
-                <div class="medium-container block-padding">
+            <div id="how_it_work" class="block-how-it-work block-padding">
+                <div class="medium-container">
                     <div class="flex-space-between">
                         <div class="block-how-it-work-title">
                             <div class="title-wrapper">
-                                <label class="content-title">Как это работает</label>
+                                <label class="content-title">Просто и доступно</label>
                                 <p class="content-text">Мобильное приложение HardApp: подключитесь к цифровой вселенной HardcoreFC!</p>
                             </div>
                             <span class="banner-link">
@@ -160,33 +192,32 @@
                     </div>
                 </div>
             </div>
-            <div id="how_it_real_work" class="block-how-it-real-work">
-                <div class="medium-container block-padding">
+            <div id="how_it_real_work" class="block-how-it-real-work block-padding">
+                <div class="medium-container">
                     <div data-aos="fade-right" class="title-wrapper title-sm-wrapper">
-                        <label class="content-title">Как это на самом деле работает?</label>
-                        <p class="content-text">Только внутри платформы и только за токены HardCoin  возможно:</p>
+                        <label class="content-title">Как это работает?</label>
+                        <p class="content-text">Уникальная возможность только для участников платформы – с помощью токенов HardCoin они смогут:</p>
                     </div>
                 </div>
                 <div class="really-image">
                     <img src="assets/image/really-works.png"/>
                 </div>
             </div>
-            <div id="profitable" class="block-profitable">
-                <div class="medium-container block-padding">
+            <div id="profitable" class="block-profitable block-padding">
+                <div class="medium-container">
                     <div class="title-wrapper title-sm-wrapper">
                         <label class="content-title">Почему это прибыльно</label>
-                        <p class="content-text">Все действия на платформе будут оплачиваться в HardCoin, который имеет фиксированную эмиссию.
-                            Это также упростит процесс
-                            оплаты за те или иные сервисы для клиентов и фанатов.</p>
+                        <p class="content-text">Официальной цифровой валютой платформы является HardCoin.
+                            Она имеет фиксированную эмиссию, благодаря чем упрощается процесс всех финансовых взаимодействий на
+                            платформе для фанатов и клиентов. Из этого следует:</p>
                     </div>
                     <div data-aos="fade-down" data-aos-duration="600" class="block-profitable-row flex-space-between">
                         <div class="block-profitable-item">
                             <span class="block-profitable-number">01</span>
                         </div>
                         <div class="block-profitable-item">
-                            <span class="block-profitable-text">Огромное комьюнити HardCore будут ежене­дельно приобре­тать токены
-                                HarcCoin для оплаты товаров,
-                                услуг, билетов, досту­пов к закрытым транс­ля­циям и многое другое.</span>
+                            <span class="block-profitable-text">Многочисленное сообщество HardCore будет мотивировано в регулярном приобретении токенов HarcCoin для оплаты товаров, услуг, билетов,
+                                досту­пов к закрытым транс­ля­циям и прочих опций.</span>
                         </div>
                     </div>
                     <div data-aos="fade-down" data-aos-duration="1200" class="block-profitable-row flex-space-between">
@@ -194,8 +225,7 @@
                             <span class="block-profitable-number">02</span>
                         </div>
                         <div class="block-profitable-item">
-                            <span class="block-profitable-text">HardCoin станет единственным пла­теж­ным средством NFT маркетплейса,
-                                где можно приобрести уникальные и эксклю­зив­ные товары и доступ к услугам.</span>
+                            <span class="block-profitable-text">HardCoin будет моновалютой NFT-маркетплейса, где можно приобрести уникальные и товары и доступ к услугам.</span>
                         </div>
                     </div>
                     <div data-aos="fade-down" data-aos-duration="1800" class="block-profitable-row flex-space-between">
@@ -203,8 +233,9 @@
                             <span class="block-profitable-number">03</span>
                         </div>
                         <div class="block-profitable-item">
-                            <span class="block-profitable-text">Коллекция NFT, которая включает видео и изображения лучших нокаутов,
-                                плакаты бойцов, карточки тематичес­ких событий, портреты и предметы бойцов-звёзд и другие.</span>
+                            <span class="block-profitable-text">Коллекция NFT, которая включает визуалы лучших нокаутов, плакаты бойцов, карточки тематичес­ких событий,
+                                портреты и предметы бойцов-звёзд,
+                                а также другие криптографические элементы будет регулярно обновляться, тем самым стимулируя дополнительные приобретения токенов.</span>
                         </div>
                     </div>
                     <div data-aos="fade-down" data-aos-duration="2400" class="block-profitable-row flex-space-between">
@@ -212,46 +243,43 @@
                             <span class="block-profitable-number">04</span>
                         </div>
                         <div class="block-profitable-item">
-                            <span class="block-profitable-text">Поскольку мы используем технологии GameFi + Real Offline, пользователи могут
-                                зарабатывать токены за свои действия, такие как обмен, подписка и многое другое. Также, используя токены HardCoin,
-                                пользователи могут голосовать
-                                за следующий поединок и за изменения правил в HardCore Fighting Championship.</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="block-map">
-                    <div class="medium-container block-padding">
-                        <div class="title-wrapper title-sm-wrapper">
-                            <label class="content-title">Видение</label>
-                            <p class="content-text">Запуск международной франшизной экспансии и проведение партнерских турниров Hardcore FC.</p>
-                        </div>
-                        <div class="block-map-row">
-                            <ul  data-aos="fade-up" data-aos-duration="600">
-                                <li class="usa-label map-label"><img src="assets/image/usa.svg">США</li>
-                                <li>Полномасштабный выход HFC на  рынок США. </li>
-                                <li>
-                                    Запуск букмекер-агентства на  территории США.
-                                </li>
-                            </ul>
-                            <ul data-aos="fade-up" data-aos-duration="1200">
-                                <li class="ru-label map-label"><img src="assets/image/russia.svg">Россия</li>
-                                <li>Выход Hardcore FC в эфиры федеральных телеканалов.</li>
-                                <li>Открытие центра Hardcore Arena. </li>
-                                <li>Открытие первого бойцовского зала сети Hardcore Gym.</li>
-                                <li>Запуск линии одежды и спортивной экипировки.</li>
-                                <li>Запуск линии спортивного питания. Выпуск энергетического напитка.</li>
-                            </ul>
-                            <ul data-aos="fade-up" data-aos-duration="1800">
-                                <li class="thai-label map-label"><img src="assets/image/thai.svg">Тайланд</li>
-                                <li>Проведение турнира HardcoreFC.</li>
-                            </ul>
+                            <span class="block-profitable-text">Использование технологии GameFi + Real Offline позволит пользователям зарабатывать токены даже за простые действия,
+                                такие как обмен, подписка и многое другое. Также, используя токены HardCoin, пользователи могут голосовать
+                                за следующий поединок и за изменения правил в HardCore Fighting Championship</span>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <section id="roadmap" class="roadmap">
-                <div class="medium-container block-padding">
+            <div class="block-map block-padding">
+                <div class="medium-container">
+                    <div class="title-wrapper title-sm-wrapper">
+                        <label class="content-title">Видение</label>
+                        <p class="content-text">Запуск международной франшизы и проведение партнерских турниров Hardcore FC по всему миру.</p>
+                    </div>
+                    <div class="block-map-row">
+                        <ul  data-aos="fade-up" data-aos-duration="600">
+                            <li class="usa-label map-label"><img src="assets/image/usa.svg">США</li>
+                            <li>Выход HFC на  рынок США.</li>
+                            <li>Запуск букмекерского агентства на территории США.</li>
+                        </ul>
+                        <ul data-aos="fade-up" data-aos-duration="1200">
+                            <li class="ru-label map-label"><img src="assets/image/russia.svg">Россия</li>
+                            <li>Выход Hardcore FC в эфир федеральных телеканалов.</li>
+                            <li>Открытие центра Hardcore Arena. </li>
+                            <li>Открытие первого бойцовского зала сети Hardcore Gym.</li>
+                            <li>Запуск линии одежды и спортивной экипировки.</li>
+                            <li>Запуск линии спортивного питания.</li>
+                            <li>Производство энергетического напитка.</li>
+                        </ul>
+                        <ul data-aos="fade-up" data-aos-duration="1800">
+                            <li class="thai-label map-label"><img src="assets/image/thai.svg">Тайланд</li>
+                            <li>Проведение турнира HardcoreFC.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <section id="roadmap" class="roadmap  block-padding">
+                <div class="medium-container">
                     <div class="title-wrapper title-sm-wrapper">
                         <label class="content-title">Дорожная карта</label>
                     </div>
@@ -264,16 +292,16 @@
                             <div class="road-map-list__info">
                                 <ul class="common-list">
                                     <li>Private round.</li>
-                                    <li>Development of a marketing campaign and economic model.</li>
-                                    <li>Development of legal documentation.</li>
-                                    <li>Closing the seed round.</li>
-                                    <li>Launching the Beta HFC Application.</li>
+                                    <li>Разработка маркетинговой кампании и экономической модели.</li>
+                                    <li>Разработка юридической документации.</li>
+                                    <li>Закрытие seed раунда.</li>
+                                    <li>Запуск Beta приложения HFC.</li>
                                 </ul>
                                 <ul class="common-list">
-                                    <li>Onboarding early adopters of the HFC application.</li>
-                                    <li>Packaging and development of the NFT component of the HFC platform.</li>
-                                    <li>Launch of media and PR activities in support of HFC platform tokenization.</li>
-                                    <li>Development of basic HFC smart contracts.</li>
+                                    <li>Онбординг первых пользователей приложения HFC.</li>
+                                    <li>Упаковка и разработка NFT составляющей платформы HFC.</li>
+                                    <li>Запуск PR-кампании в поддержку токенизации платформы HFC.</li>
+                                    <li>Разработка основных смарт-контрактов HFC.</li>
                                 </ul>
                             </div>
                         </li>
@@ -284,19 +312,19 @@
                             </div>
                             <div class="road-map-list__info">
                                 <ul class="common-list">
-                                    <li> Launching a marketing campaign.</li>
-                                    <li> Public safe.</li>
-                                    <li> First NFTs released.</li>
-                                    <li> Listing on DEX.</li>
-                                    <li> Development of the NFT part of the NFC application.</li>
-                                    <li> Opening of the Hardcore Arena.</li>
-                                    <li> Hosting a Hardcore Fighting Tournament in Thailand.</li>
+                                    <li>Запуск маркетинговой кампании.</li>
+                                    <li>Public sale.</li>
+                                    <li>Выпуск первых NFT.</li>
+                                    <li>Листинг на бирже DEX.</li>
+                                    <li>Разработка части NFT приложения HFC.</li>
+                                    <li>Открытие центра Hardcore Арена.</li>
+                                    <li>Проведение турнира Hardcore Fighting в Тайланде.</li>
                                 </ul>
                                 <ul class="common-list">
-                                    <li> Launch of a line of clothing and sports equipment.</li>
-                                    <li> Full-scale entry of the Hardcore Fighting Championship into the US market.</li>
-                                    <li> Conducting the first NFC fight in the United States.</li>
-                                    <li> Launching international expansion and hosting Hardcore Partner Tournaments</li>
+                                    <li>Запуск линии одежды и спортивной экипировки.</li>
+                                    <li>Полномасштабный выход Hardcore Fighting Championship на рынок США.</li>
+                                    <li>Проведение первого боя HFC в США.</li>
+                                    <li>Запуск международной франшизы и проведение партнерских турниров Hardcore Championship.</li>
                                 </ul>
                             </div>
                         </li>
@@ -307,17 +335,12 @@
                             </div>
                             <div class="road-map-list__info">
                                 <ul class="common-list">
-                                    <li> Expansion of the platform functionality for paid viewing of closed HFC battles.
-                                    </li>
-                                    <li> Opening of our own automotive detailing agency under the Hardcore brand, based on
-                                        ZTR Performance.
-                                    </li>
+                                    <li>Расширение функционала платформы для платного просмотра закрытых боев HFC.</li>
+                                    <li>Открытие собственной детейлинг-студии под брендом Hardcore, на базе ZTR Performance.</li>
                                 </ul>
                                 <ul class="common-list">
-                                    <li> The Hardcore Gaming series of mobile games launched.</li>
-                                    <li> Opening of the first sports fighting hall of the "Hardcore Gym" network (Conducting
-                                        personal training with league fighters).
-                                    </li>
+                                    <li>Запуск серии мобильных игр «Hardcore Gaming».</li>
+                                    <li>Открытие первого бойцовского клуба сети “Hardcore Gym” с возможностью организации персональных тренировок с бойцами лиги.</li>
                                 </ul>
                             </div>
                         </li>
@@ -328,13 +351,11 @@
                             </div>
                             <div class="road-map-list__info">
                                 <ul class="common-list">
-                                    <li> The Hardcore Fighting Championship brand goes live on federal TV channels.</li>
+                                    <li>Выход бренда Hardcore Fighting Championship в эфир федеральных телеканалов.</li>
                                 </ul>
                                 <ul class="common-list">
-                                    <li> Expansion of the internal functionality of the HFC platform: the ability to
-                                        purchase tickets for HFC battles within the application, expansion
-                                        NFT capabilities, enhancing user interaction with the HFC battle grid.
-                                    </li>
+                                    <li>Расширение внутреннего функционала платформы HFC: возможность приобретения билетов на бои HFC внутри приложения, расширение возможностей NFT,
+                                        расширение возможностей взаимодействия пользователя с сеткой боев HFC.</li>
                                 </ul>
                             </div>
                         </li>
@@ -345,11 +366,11 @@
                             </div>
                             <div class="road-map-list__info">
                                 <ul class="common-list">
-                                    <li> Launch of a line of sports nutrition under the Hardcore brand.</li>
-                                    <li> Launch of our own energy drink under the Hardcore brand.</li>
+                                    <li>Запуск линии спортивного питания под брендом Hardcore.</li>
+                                    <li>Выпуск собственного энергетического напитка под брендом Hardcore.</li>
                                 </ul>
                                 <ul class="common-list">
-                                    <li> Launch of drinking water under the Hardcore brand.</li>
+                                    <li>Выпуск питьевой воды под брендом Hardcore.</li>
                                 </ul>
                             </div>
                         </li>
@@ -360,46 +381,42 @@
                             </div>
                             <div class="road-map-list__info">
                                 <ul class="common-list">
-                                    <li> Launch of our own bookmaker agency in the United States.</li>
+                                    <li>Запуск букмекерского агентства на территории США.</li>
                                 </ul>
                             </div>
                         </li>
                     </ul>
                 </div>
             </section>
-            <div class="block-command">
-                <div class="medium-container block-padding">
+            <div class="block-command block-padding">
+                <div class="medium-container">
                     <div data-aos="fade-right" class="title-wrapper">
                         <label class="content-title">Team</label>
                     </div>
                     <div class="flex-space-between block-command-row">
                         <div>
                             <img src="assets/image/team/Pic1.png"/>
-                            <label>Anatoly Sulyanov</label>
+                            <label>Анатолий Сульянов</label>
                             <span>CEO & Founder</span>
-                            <p> Businessman, athlete and founder of the Hardcore FC fist fighting league. Founder of the
-                                martial arts club Arena Fight
-                                Club, owner of Ultimate Fitness. </p>
-                        </div>
-                        <div>
-                            <img src="assets/image/team/Pic2.png"/>
-                            <label>George Galoyan</label>
-                            <span>Founder of DAO.vc</span>
-                            <p> Technological innovator. Head of Startup Entrepreneurship
-                                Blockchain associations of Armenia, participant of the international initiative Digital
-                                Georgia. </p>
+                            <p>Бизнесмен, спортсмен и основатель лиги кулачных боев Hardcore FC. Основатель клуба единоборств Arena Fight Club, владелец фитнес-клуба Ultimate Fitness.</p>
                         </div>
                         <div>
                             <img src="assets/image/team/Pic3.png"/>
-                            <label>Evgeny Galiakhmetov</label>
+                            <label>Евгений Галиахметов</label>
                             <span>Advisor</span>
-                            <p>Independent financial advisor and investor. Co-founder of Global Pilots, Angelsdeck, The Gate
-                                Club, Altergate.</p>
+                            <p>Независимый финансовый советник и инвестор. Соучредитель Global Pilots, Angelsdeck, The Gate Club, Altergate.</p>
+                        </div>
+                        <div>
+                            <img src="assets/image/team/Pic2.png"/>
+                            <label>Георгий Галоян</label>
+                            <span>Founder of DAO.vc</span>
+                            <p>Технологический инноватор. Руководитель направления стартап-предпринимательства Блокчейн-ассоциации Армении, участник международной инициативы Digital Georgia.</p>
                         </div>
                         <div>
                             <img src="assets/image/team/Pic4.png"/>
-                            <label>Karina Lysenko</label>
+                            <label>Карина Лысенко</label>
                             <span>CDO</span>
+                            <p>Независимый финансовый советник и инвестор. Соучредитель Global Pilots, Angelsdeck, The Gate Club, Altergate.</p>
                         </div>
                     </div>
                 </div>
@@ -410,7 +427,7 @@
                         <div class="block-title">
                             <label>Partners</label>
                         </div>
-                        <div class="row block-partners-row">
+                        <div class="flex-space-between block-partners-row">
                             <div data-aos="zoom-in" data-aos-duration="500"><img src="assets/image/partners/WT.png"/></div>
                             <div data-aos="zoom-in" data-aos-duration="1000"><img src="assets/image/partners/Gorilla.png"/>
                             </div>
@@ -430,7 +447,7 @@
                         <div class="block-title">
                             <label>Media</label>
                         </div>
-                        <div class="row block-partners-row media">
+                        <div class="flex-space-between block-partners-row media">
                             <div data-aos="zoom-in" data-aos-duration="500"><img src="assets/image/partners/Yahoo.png"/></div>
                             <div data-aos="zoom-in" data-aos-duration="1000"><img src="assets/image/partners/be.png"/>
                             </div>
@@ -452,94 +469,108 @@
                         </div>
                         <div class="block-board-row">
                             <img src="assets/image/dao.png">
-                            <span>The tokenization provider is DAOvc.</span>
+                            <span>Провайдер токенизации DAOvc.</span>
                         </div>
                     </div>
                 </div>
             </div>
-            <div>
-                <img  class="footer-img" src="assets/image/subscribe.png">
+            <div class="block-subscribe">
+                <div class="block-subscribe-container">
+                    <form class="block-subscribe-form">
+                        <div class="title-md-wrapper">
+                            <label class="block-subscribe-title">Добро пожаловать в лигу единоборств HARDCORE FC!</label>
+                            <span class="block-subscribe-text">Бизнесмен, спортсмен и основатель лиги кулачных боев Hardcore FC.
+                                Основатель клуба единоборств Arena Fight Club,
+                                владелец фитнес-клуба Ultimate Fitness.</span>
+                        </div>
+
+                        <div class="form-group flex-start">
+                            <input class="form-input" name="email" type="text"/>
+                            <div class="block-subscribe-button flex-center">
+                                <a href="assets/image/pdf/Hardcore.pdf" target="_blank">Подписаться</a>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
             </div>
 
-            <footer class="medium-container">
+            <footer class="footer">
+                <div  class="medium-container">
+                    <div class="flex-space-between">
+                        <div class="logo">
+                            <a href="#"><img alt="Logo" src="assets/image/logo.svg"/></a>
+                        </div>
+                        <div class="footer-button-container">
+                            <div class="footer-button flex-center">
+                                <a href="assets/image/pdf/Hardcore.pdf" target="_blank">Презентация проекта</a>
+                            </div>
+                        </div>
+                        <div class="footer-nav">
+                            <label class="footer-label">Навигация</label>
+                            <div class="footer-nav-link">
+                                <a href="#what_is">Что такое Hardcore</a>
+                            </div>
+                            <div class="footer-nav-link">
+                                <a href="#how_it_work">КАК ЭТО РАБОТАЕТ</a>
+                            </div>
+                            <div class="footer-nav-link">
+                                <a href="#how_it_real_work">Платформа</a>
+                            </div>
+                            <div class="footer-nav-link">
+                                <a href="#profitable">ПОЧЕМУ ИНВЕСТИРОВАТЬ</a>
+                            </div>
+                            <div class="footer-nav-link">
+                                <a href="#roadmap">РОАДМАП</a>
+                            </div>
+                        </div>
+                        <div class="">
+                            <label class="footer-label">Приложение</label>
+                            <span class="banner-link">
+                                <a href="#">
+                                    <div data-aos="zoom-in" data-aos-duration="1200" class="button-google-store aos-init aos-animate"></div>
+                                </a>
+                                <a href="#">
+                                    <div data-aos="zoom-in" data-aos-duration="1200" class="button-app-store aos-init aos-animate"></div>
+                                </a>
+                            </span>
+                            <div class="footer-row">
+                                <label class="footer-label">Наши соц. сети</label>
+                                <div class="social-links flex-start">
+                                    <a href="https://medium.com/@Hardcoin" target="_blank" class="mr-3">
+                                        <div class="button-medium"></div>
+                                    </a>
+                                    <a href="https://www.instagram.com/hardcore.fighting/" target="_blank" class="mr-3">
+                                        <div class="button-instagram"></div>
+                                    </a>
+                                    <a href="https://t.me/hardcorefighting" target="_blank" class="mr-3">
+                                        <div class="button-tg"></div>
+                                    </a>
+                                    <a href="http://facebook.com/HHardcoin" target="_blank" class="mr-3">
+                                        <div class="button-facebook"></div>
+                                    </a>
+                                    <a href="https://twitter.com/HHardcoin" target="_blank" class="mr-3">
+                                        <div class="button-twitter"></div>
+                                    </a>
+                                    <a href="https://www.youtube.com/channel/UC1_FrNtrgzFPQVHuwAAR3xQ" target="_blank"
+                                       class="mr-3">
+                                        <div class="button-youtub"></div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="button-vk"></div>
+                                    </a>
+                                </div>
 
-                <img class="footer-img" src="assets/image/footer.png">
-                <!--        <div class="container">-->
-                <!--            <div class="hardcore-line mb-16"></div>-->
-                <!--            <div class="row mb-10">-->
-                <!--                <div class="col logo">-->
-                <!--                    <a href="#"><img alt="Logo" src="assets/image/logo.svg"/></a>-->
-                <!--                </div>-->
-                <!--                <div class="col">-->
-                <!--                    <div class="row">-->
-                <!--                        <div class="col-12 flex-center menu mt-4">-->
-                <!--                            <div class="menu-link mr-12">-->
-                <!--                                <a href="#what_is">What is Hardcore</a>-->
-                <!--                            </div>-->
-                <!--                            <div class="menu-link mr-12">-->
-                <!--                                <a href="#how_it_work">How it works</a>-->
-                <!--                            </div>-->
-                <!--                            <div class="menu-link mr-12">-->
-                <!--                                <a href="#how_it_real_work">How it really works</a>-->
-                <!--                            </div>-->
-                <!--                            <div class="menu-link mr-12">-->
-                <!--                                <a href="#profitable">Why it is profitable</a>-->
-                <!--                            </div>-->
-                <!--                            <div class="menu-link mr-12">-->
-                <!--                                <a href="#roadmap">Roadmap</a>-->
-                <!--                            </div>-->
-                <!--                            <div class="menu-button flex-center">-->
-                <!--                                <a href="assets/image/pdf/Hardcore.pdf" target="_blank">Download PDF</a>-->
-                <!--                            </div>-->
-                <!--                        </div>-->
-                <!--                        <div class="col-12 d-flex justify-content-end align-content-center mt-10 media">-->
-                <!--                            <div class="mr-5">-->
-                <!--                                <a href="#">-->
-                <!--                                    <div class="button-google-store"></div>-->
-                <!--                                </a>-->
-                <!--                            </div>-->
-                <!--                            <div class="mr-10">-->
-                <!--                                <a href="#">-->
-                <!--                                    <div class="button-app-store"></div>-->
-                <!--                                </a>-->
-                <!--                            </div>-->
-                <!--                            <div class="flex-center media-social">-->
-                <!--                                <a href="https://medium.com/@Hardcoin" target="_blank" class="mr-3">-->
-                <!--                                    <div class="button-medium"></div>-->
-                <!--                                </a>-->
-                <!--                                <a href="https://www.instagram.com/hardcore.fighting/" target="_blank" class="mr-3">-->
-                <!--                                    <div class="button-instagram"></div>-->
-                <!--                                </a>-->
-                <!--                                <a href="https://t.me/hardcorefighting" target="_blank" class="mr-3">-->
-                <!--                                    <div class="button-tg"></div>-->
-                <!--                                </a>-->
-                <!--                                <a href="http://facebook.com/HHardcoin" target="_blank" class="mr-3">-->
-                <!--                                    <div class="button-facebook"></div>-->
-                <!--                                </a>-->
-                <!--                                <a href="https://twitter.com/HHardcoin" target="_blank" class="mr-3">-->
-                <!--                                    <div class="button-twitter"></div>-->
-                <!--                                </a>-->
-                <!--                                <a href="https://www.youtube.com/channel/UC1_FrNtrgzFPQVHuwAAR3xQ" target="_blank"-->
-                <!--                                   class="mr-3">-->
-                <!--                                    <div class="button-youtub"></div>-->
-                <!--                                </a>-->
-                <!--                                <a href="#">-->
-                <!--                                    <div class="button-vk"></div>-->
-                <!--                                </a>-->
-                <!--                                </ul>-->
-                <!--                            </div>-->
-                <!--                        </div>-->
-                <!--                    </div>-->
-                <!--                </div>-->
-                <!--            </div>-->
-                <!--            <div class="d-flex justify-content-between grey&#45;&#45;text text&#45;&#45;darken-2 pb-16">-->
-                <!--                <span>-->
-                <!--                    Hardcore FC © 2021. All rights reserved.-->
-                <!--                </span>-->
-                <!--                <span>-->
-                <!--                    Terms & Policy-->
-                <!--                </span>-->
-                <!--            </div>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright flex-space-between">
+                        <span>
+                            Hardcore FC © 2021. Все права защищены.
+                        </span>
+                        <a href="#">Условия и политика</a>
+                    </div>
+                </div>
             </footer>
         </div>
     </main>

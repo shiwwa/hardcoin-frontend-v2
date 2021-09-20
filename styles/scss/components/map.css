@@ -9,6 +9,7 @@
     background-size: cover;
     display: block;
     position: absolute;
+    left: 0;
     z-index: 3;
 }
 .block-map-row {
@@ -39,4 +40,21 @@
     width: 42px;
     margin-top: -5px;
     margin-right: 20px;
+}
+@media (max-width: 1024px) {
+    .block-map:after {
+        height: 220px;
+        bottom: -220px;
+    }
+    .block-map-row {
+        padding: 0;
+        flex-wrap: wrap;
+    }
+    .block-map-row ul {
+        width: 100%;
+        padding: 0;
+    }
+    .block-map-row .map-label {
+        font-size: 20px;
+    }
 }
