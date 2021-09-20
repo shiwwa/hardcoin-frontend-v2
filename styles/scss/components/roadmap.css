@@ -1,0 +1,85 @@
+.roadmap {
+    position: relative;
+    z-index: 5;
+    padding-top: 200px;
+}
+.road-map-list {
+    position: relative;
+    margin-top: 60px;
+}
+.road-map-list::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    left: 26%;
+    background-color: #FC1531;
+}
+.road-map-list__item {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+    padding: 80px 0 0;
+}
+.road-map-list__item:after {
+    border-bottom: 1px solid #675B5B;
+    content: '';
+    /*content: url(../../../assets/image/icons/raodmap.svg);*/
+    width: 100%;
+    height: 1px;
+    display: block;
+}
+.road-map-list__date {
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 48px;
+    color: #fff;
+    padding: 0 65px 0 0;
+    position: relative;
+}
+.road-map-list__date:after {
+    content: '';
+    width: 120px;
+    height: 120px;
+    background: url(../../../assets/image/icons/raodmap.svg) no-repeat;
+    background-size: 120px;
+    display: inline-block;
+    position: absolute;
+    right: -6px;
+    top: -20px;
+}
+.road-map-list__info {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px 80px;
+}
+
+.road-map-list__info .common-list {
+    width: 50%;
+}
+.road-map-list__quarter {
+    color: #FC1531;
+    font-weight: 500;
+    margin-left: 15px;
+}
+.common-list li::before {
+    content: '';
+    display: block;
+    min-width: 24px;
+    height: 5px;
+    margin-right: 25px;
+    background: url(../../../assets/image/icons/list-before-red.svg) no-repeat;
+}
+
+.common-list li {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,32 @@
+.block-what-it {
+    position: relative;
+    z-index: 4;
+    padding-top: 80px;
+}
+.block-what-it-content-row {
+    width: 50%;
+}
+.block-what-it-content-item {
+    margin-bottom: 24px;
+}
+.block-what-it-numbers {
+    color: #FC1531;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 64px;
+    display: block;
+    line-height: 1;
+    margin-bottom: 3px;
+}
+.block-what-it-text {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+}
+.really-image {
+    padding-bottom: 140px;
+}
+.really-image img {
+    width: 100%;
+    padding-left: 21%;
+}

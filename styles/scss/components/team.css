@@ -1,0 +1,41 @@
+.block-command {
+    position: relative;
+}
+.block-command:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -100px;
+    width: 100%;
+    height: 100%;
+    background: url(../../../assets/image/background/gradient-big.png) right no-repeat;
+    background-size: 50%;
+    z-index: -1;
+}
+.block-command img {
+    width: 160px;
+    height: 200px;
+}
+.block-command-row div{
+    width: 250px;
+}
+.block-command-row label{
+    margin-top: 40px;
+    margin-bottom: 0;
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.block-command-row span{
+    margin-bottom: 25px;
+    display: block;
+    font-size: 18px;
+    color: #FC1531;
+}
+.block-command-row p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.56;
+    font-weight: 400;
+}

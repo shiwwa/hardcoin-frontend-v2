@@ -1,0 +1,66 @@
+.menu-header {
+    height: 70px;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 1460px;
+    padding: 0 30px;
+}
+.menu-link {
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'TTSquaresCondensed-Bold';
+    transition: color 0.2s ease;
+}
+.menu-link a {
+    color: #fff;
+    font-size: 14px;
+    padding: 0 15px;
+}
+.menu-link a:hover {
+    color: #E10000;
+}
+.menu-button {
+    background: url(../../../assets/image/background/white-button.svg) no-repeat;
+    background-size: contain;
+    height: 59px;
+    min-width: 192px;
+    margin-left: 10%;
+}
+.menu-button a {
+    color: #E10000;
+}
+.menu-button a:hover {
+    color: #a90303;
+}
+.menu-button:active {
+    animation: clickButton 0.5s ease;
+}
+.menu .logo {
+    margin-right: 5%;
+    position: relative;
+    top: 50px;
+}
+.menu .logo img{
+    width: 160px;
+}
+@keyframes clickButton {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.97);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
