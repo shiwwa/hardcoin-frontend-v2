@@ -84,6 +84,29 @@
 .block-how-it-real-work .block-padding {
     padding-bottom: 0;
 }
+.block-really-work-item {
+    width: 340px;
+    height: 150px;
+    border: 1px solid #645E5E;
+    padding: 20px;
+    margin: 0 20px 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.block-really-work-item:before {
+    content: '';
+    background: url(../../../assets/image/icons/plus.svg) no-repeat;
+    display: block;
+    width: 26px;
+    height: 26px;
+    background-size: 26px;
+}
+.block-really-work-label {
+    color: #fff;
+    font-size: 18px;
+    padding: 0 0 0 35px;
+}
 @media (max-width: 1100px) {
     .title-wrapper {
         margin-bottom: 30px;
@@ -126,6 +149,11 @@
     .block-how-it-work-item:nth-of-type(2){
         width: auto;
     }
+    .scrollable {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-right: 30px;
+    }
 }
 @media (max-width: 575px) {
     .block-how-it-work-item:nth-of-type(1),
@@ -142,5 +170,17 @@
         height: 80%;
         width: 100%;
         object-fit: cover;
+    }
+    .scrollable > div{
+        width: 100%;
+    }
+    .block-really-work-item {
+        width: 100%;
+        margin: 0 0 20px;
+        height: auto;
+        min-height: 120px;
+    }
+    .block-really-work-label {
+        font-size: 16px;
     }
 }

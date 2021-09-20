@@ -1896,11 +1896,14 @@ html body {
   top: -20px;
   width: 100%;
   left: 0;
-  background: rgb(0 0 0 / 50%);
+  background: rgb(0 0 0 / 95%);
   padding-top: 90px;
   padding-bottom: 30px;
   display: none;
+  box-shadow: 0 5px 14px rgb(167 0 0 / 44%);
 }
+
+
 .sidebar .menu-link {
   margin-bottom: 15px;
 }
@@ -1992,4 +1995,28 @@ html body {
   .social-links {
     flex-wrap: wrap;
   }
+}
+
+.scrollable::-webkit-scrollbar {
+  height: 5px;
+}
+
+.scrollable::-webkit-scrollbar-track {
+  background: url(../assets/image/background/scroll-bg.png) no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0);
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+  background: url(../assets/image/icons/scrollbar.png) no-repeat;
+  background-size: cover;
+  height: 8px;
+}
+.scrollable::-webkit-scrollbar:vertical {
+  display: none;
+}
+.scrollable {
+  overflow-x: scroll;
+  width: auto;
+  display: flex;
 }
