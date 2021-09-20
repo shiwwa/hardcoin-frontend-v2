@@ -101,12 +101,12 @@
         padding-top: 0;
     }
     .block-how-it-work-item:nth-of-type(2) {
-        top: 25%;
+        top: 230px;
         left: 15px;
     }
     .block-how-it-work-item:nth-of-type(3) {
         position: absolute;
-        top: 40%;
+        top: 340px;
         left: auto;
         right: 0;
     }
