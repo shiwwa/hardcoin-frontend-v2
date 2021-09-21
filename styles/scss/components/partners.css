@@ -88,11 +88,16 @@
 .block-board-row {
     margin-top: 60px;
 }
-.block-board span {
+.block-board a {
     color: #fff;
     font-size: 20px;
     display: block;
     margin-top: 25px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+.block-board a:hover {
+    color: #FC1531;
 }
 .block-board-row img {
     width: 160px;

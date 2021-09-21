@@ -500,7 +500,8 @@
                             <img src="assets/image/team/Pic4.png"/>
                             <label>Карина Лысенко</label>
                             <span>CDO</span>
-                            <p>Независимый финансовый советник и инвестор. Соучредитель Global Pilots, Angelsdeck, The Gate Club, Altergate.</p>
+                            <p>Основатель студии мобильной и веб разработки Hilditonn.
+                                BA, Lead PM. Технический бизнес-консультант.</p>
                         </div>
                     </div>
                 </div>
@@ -553,7 +554,7 @@
                         </div>
                         <div class="block-board-row">
                             <img src="assets/image/dao.png">
-                            <span>Провайдер токенизации DAOvc.</span>
+                            <a href="https://dao.vc" target="_blank">Провайдер токенизации DAOvc.</a>
                         </div>
                     </div>
                 </div>
@@ -664,9 +665,26 @@
 
 <script type="text/javascript" src="./assets/js/index.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
 <script type="module">
     AOS.init();
+
+    import Translator from "./assets/js/translator.js";
+
+    var translator = new Translator({
+        persist: false,
+        languages: ["ru", "en"],
+        defaultLanguage: "en",
+        detectLanguage: true,
+        filesLocation: "./assets/i18n"
+    });
+
+    translator.load();
+
+    document.querySelector("form").addEventListener("click", function(evt) {
+        if (evt.target.tagName === "INPUT") {
+            translator.load(evt.target.value);
+        }
+    });
     // import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js";
     // import { getAnalytics, logEvent } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-analytics.js";
     //
