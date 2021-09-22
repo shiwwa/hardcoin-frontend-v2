@@ -1705,6 +1705,12 @@ html body {
   height: 40px;
   width: 40px;
 }
+.banner-socials .button-medium {
+  background: url(../assets/icons/banner/Medium.svg);
+  background-size: contain;
+  height: 40px;
+  width: 40px;
+}
 .media-social a {
   transition: all 0.2s ease;
 }
@@ -1721,7 +1727,12 @@ html body {
   height: 40px;
   width: 40px;
 }
-
+.banner-socials .button-instagram {
+  background: url(../assets/icons/banner/Instagram.svg) no-repeat;
+  background-size: 40px;
+  height: 40px;
+  width: 40px;
+}
 /* line 29, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/social.scss */
 .button-tg {
   background: url(../assets/icons/tg_icon.svg) no-repeat;
@@ -1729,7 +1740,12 @@ html body {
   height: 40px;
   width: 40px;
 }
-
+.banner-socials .button-tg {
+  background: url(../assets/icons/banner/Telegrm.svg) no-repeat;
+  background-size: 40px;
+  height: 40px;
+  width: 40px;
+}
 /* line 36, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/social.scss */
 .button-facebook {
   background: url(../assets/icons/facebook_icon.svg) no-repeat;
@@ -1737,10 +1753,21 @@ html body {
   height: 40px;
   width: 40px;
 }
-
+.banner-socials .button-facebook {
+  background: url(../assets/icons/banner/Facebook.svg) no-repeat;
+  background-size: 40px;
+  height: 40px;
+  width: 40px;
+}
 /* line 43, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/social.scss */
 .button-twitter {
   background: url(../assets/icons/twitter_icon.svg) no-repeat;
+  background-size: 40px;
+  height: 40px;
+  width: 40px;
+}
+.banner-socials .button-twitter {
+  background: url(../assets/icons/banner/Twitter.svg) no-repeat;
   background-size: 40px;
   height: 40px;
   width: 40px;
@@ -1753,10 +1780,21 @@ html body {
   height: 40px;
   width: 40px;
 }
-
+.banner-socials .button-youtub {
+  background: url(../assets/icons/banner/Youtube.svg) no-repeat;
+  background-size: 40px;
+  height: 40px;
+  width: 40px;
+}
 /* line 57, ../../../../../../OpenServer/domains/hardcore/wp-content/themes/Hardcore/styles/scss/modules/social.scss */
 .button-vk {
   background: url(../assets/icons/vk_icon.svg) no-repeat;
+  background-size: 40px;
+  height: 40px;
+  width: 40px;
+}
+.banner-socials .button-vk {
+  background: url(../assets/icons/banner/VK.svg) no-repeat;
   background-size: 40px;
   height: 40px;
   width: 40px;
@@ -1833,6 +1871,7 @@ html body {
 }
 .social-links a {
   transition: all 0.2s ease;
+  margin-bottom: 3px;
 }
 .social-links a:hover {
   filter: brightness(0.8);
