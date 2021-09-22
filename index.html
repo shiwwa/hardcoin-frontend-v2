@@ -589,7 +589,7 @@
                         </div>
                         <a href="https://dao.vc" target="_blank" class="block-board-row">
                             <img src="assets/image/dao.png">
-                            <a href="https://dao.vc" target="_blank">Провайдер токенизации DAOvc.</a>
+                            <a href="https://dao.vc" target="_blank">Powered by DAO.vc</a>
                         </a>
                     </div>
                 </div>
@@ -699,6 +699,8 @@
 
 <script type="text/javascript" src="./assets/js/index.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
 <script type="module">
     AOS.init();
 
@@ -736,9 +738,4 @@
     // Initialize Firebase
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
-    logEvent(analytics, 'select_content', {
-        content_type: 'image',
-        content_id: 'P12453',
-        items: [{ name: 'Kittens' }]
-    });
 </script>

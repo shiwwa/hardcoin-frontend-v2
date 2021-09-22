@@ -2023,7 +2023,6 @@ html body {
     flex-wrap: wrap;
   }
 }
-
 .scrollable::-webkit-scrollbar {
   height: 5px;
 }
