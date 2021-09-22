@@ -9,6 +9,7 @@
 @import './scss/components/team.css';
 @import './scss/components/partners.css';
 @import './scss/components/subscribe.css';
+@import './scss/components/whitepaper-popup.css';
 
 @font-face {
   font-family: 'RuberoidOblique';

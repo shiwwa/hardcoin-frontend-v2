@@ -3,6 +3,8 @@
 var state = 'close';
 var sidebar = document.querySelector('.sidebar');
 var link = document.querySelectorAll('.menu-link');
+var whitepaperPopup = document.querySelector('.whitepaper-popup');
+
 function init() {
     link.forEach(function(el){
         el.addEventListener('click', function (e) {
@@ -33,6 +35,10 @@ function init() {
         lastTouch = currentTouch
     })
 
+    if(!localStorage.getItem('isWhitepaper')) {
+        whitepaperPopup.style.display = 'flex';
+    }
+
 }
 function changeStyle() {
     if(state === 'close') {
@@ -46,5 +52,10 @@ function changeStyle() {
 function closeSidebar() {
     state = 'close';
     sidebar.style.display = 'none'
+}
+
+function closeWhitepaperPopup() {
+    localStorage.setItem('isWhitepaper', 'true');
+    whitepaperPopup.style.display = 'none'
 }
 init();
