@@ -4,6 +4,7 @@ var state = 'close';
 var sidebar = document.querySelector('.sidebar');
 var link = document.querySelectorAll('.menu-link');
 var whitepaperPopup = document.querySelector('.whitepaper-popup');
+var subscribePopup = document.querySelector('.subscribe-popup');
 
 function init() {
     link.forEach(function(el){
@@ -40,6 +41,9 @@ function init() {
     }
 
 }
+
+init();
+
 function changeStyle() {
     if(state === 'close') {
         state = 'open';
@@ -58,4 +62,26 @@ function closeWhitepaperPopup() {
     localStorage.setItem('isWhitepaper', 'true');
     whitepaperPopup.style.display = 'none'
 }
-init();
+
+function closeSuscbribePopup() {
+    subscribePopup.style.display = 'none'
+}
+
+function sendEmail() {
+    var error = document.querySelector('.error');
+    var email = document.getElementById('email');
+    var regex = /\S+@\S+\.\S+/;
+
+    if(!email.value.length || (email.value.length && !regex.test(email.value))) {
+       error.style.display = 'block'
+    } else {
+        error.style.display = 'none'
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", 'http://54.172.183.97:8080/v1/model', true);
+        xhr.setRequestHeader('Content-Type', 'application/json');
+        xhr.send(email.value)
+        subscribePopup.style.display = 'flex';
+        email.value = '';
+    }
+
+}

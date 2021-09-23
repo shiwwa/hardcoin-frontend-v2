@@ -4,7 +4,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    background: rgb(0 0 0 / 30%);
+    background: rgba(0, 0, 0, 0.4);
     z-index: 10;
     display: none;
     align-items: center;
