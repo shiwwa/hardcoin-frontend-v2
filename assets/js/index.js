@@ -77,7 +77,7 @@ function sendEmail() {
     } else {
         error.style.display = 'none'
         var xhr = new XMLHttpRequest();
-        xhr.open("POST", 'http://54.172.183.97:8080/v1/mail', true);
+        xhr.open("POST", 'http://54.172.183.97:8080/v1/mail/', true);
         xhr.setRequestHeader('Content-Type', 'application/json');
         xhr.send(JSON.stringify({mail: email.value}))
         subscribePopup.style.display = 'flex';
