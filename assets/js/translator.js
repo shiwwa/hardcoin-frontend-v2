@@ -55,7 +55,7 @@ class Translator {
         return translation;
     }
 
-    async load(lang) {
+    async _load(lang) {
         if (!this._options.languages.includes(lang)) {
             return;
         }
@@ -67,6 +67,7 @@ class Translator {
         if (this._options.persist) {
             localStorage.setItem("language", lang);
         }
+
     }
 
     async getTranslationByKey(lang, key) {
@@ -129,7 +130,6 @@ class Translator {
                 });
             }
         };
-
         this._elements.forEach(replace);
     }
 

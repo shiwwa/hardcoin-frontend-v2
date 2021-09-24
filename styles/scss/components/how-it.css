@@ -32,6 +32,9 @@
     position: relative;
     width: 80%;
 }
+.block-how-it-work.block-padding {
+    padding-bottom: 0;
+}
 .block-how-it-work-item {
     border: 1px solid #FC1531;
     background: url(../../../assets/image/background/blur-sm.png) no-repeat;
@@ -165,5 +168,8 @@
         height: 80%;
         width: 100%;
         object-fit: cover;
+    }
+    .block-how-it-work.block-padding {
+        padding-bottom: 30px;
     }
 }
