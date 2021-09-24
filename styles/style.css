@@ -2081,6 +2081,57 @@ html body {
 .lang-item:hover {
   color: #FC1531;
 }
+.block-top-padding {
+  padding-top: 250px;
+}
+.terms-conditions b,
+.terms-conditions li,
+.terms-conditions span,
+.terms-conditions p,
+.terms-conditions label{
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.terms-conditions b {
+  font-size: 16px;
+  display: block;
+}
+.terms-conditions a {
+  color: #FC1531;
+}
+.list {
+ padding-left: 30px;
+}
+.list span {
+  padding-right: 15px;
+  min-width: 65px;
+}
+.list li:before {
+  content: '';
+  width: 4px;
+  height: 4px;
+  background: #fff;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.list p {
+  display: flex;
+}
+.back-link {
+  text-align: center;
+  padding: 20px 0 60px;
+}
+.back-link a {
+  color: #FC1531;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+.back-link a:hover {
+  color: #FC1531;
+  filter: brightness(0.8);
+}
 @media (max-width: 1300px) {
   .lang-menu {
     position: static;
@@ -2090,5 +2141,17 @@ html body {
 @media (max-width: 1024px) {
   .lang-menu {
     margin-bottom: 20px;
+  }
+  .list ul {
+    padding-left: 0;
+  }
+  .terms-conditions .title-wrapper {
+    padding-left: 30px;
+  }
+  .terms-conditions .title-wrapper:before {
+    left: -10px;
+  }
+  .terms-conditions.medium-container {
+    padding: 0 20px;
   }
 }

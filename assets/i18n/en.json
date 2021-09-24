@@ -150,7 +150,7 @@
   "PARTNERS": "Partners",
   "MEDIA": "Media",
   "ALL_RIGHTS_RECEIVED": "Hardcore FC © 2021. All rights reserved.",
-  "CONDITIONS": "Terms & Policy",
+  "CONDITIONS": "<a href=\"/terms_of_condition.html\">Terms</a> & <a  href=\"/privacy_policy.html\">Policy</a>",
   "LOOK_WHITEPAPER": "Check out our Whitepaper",
   "NEXT": "Go to",
   "READMORE": "All details are here"
