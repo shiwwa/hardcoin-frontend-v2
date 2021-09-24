@@ -2132,6 +2132,17 @@ html body {
   color: #FC1531;
   filter: brightness(0.8);
 }
+.text-underline span {
+  border-bottom: 1px solid #fff;
+  margin-right: 5px;
+}
+.terms-conditions .content-title {
+  font-size: 32px;
+}
+.terms-conditions .title-wrapper:before {
+  top: -6px;
+  left: -75px;
+}
 @media (max-width: 1300px) {
   .lang-menu {
     position: static;
@@ -2153,5 +2164,8 @@ html body {
   }
   .terms-conditions.medium-container {
     padding: 0 20px;
+  }
+  .terms-conditions .content-title {
+    font-size: 20px;
   }
 }
