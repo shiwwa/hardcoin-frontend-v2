@@ -155,14 +155,16 @@
 }
 @media (max-width: 575px) {
     .block-how-it-work-item:nth-of-type(1),
+    .block-how-it-work-item:nth-of-type(2),
     .block-how-it-work-item:nth-of-type(3) {
-        left: 0;
-        right: auto;
+        position: static;
+        margin-bottom: 15px;
     }
-
-    .block-how-it-work-item:nth-of-type(2) {
-        left: -15px;
-        right: auto;
+    .block-how-it-work-item:nth-of-type(1) {
+        margin-top: -80px;
+    }
+    .block-how-it-work-image {
+        display: block;
     }
     .block-how-it-work-image img{
         height: 80%;
