@@ -47,7 +47,7 @@ init();
 function changeStyle() {
     if(state === 'close') {
         state = 'open';
-        sidebar.style.display = 'block'
+        sidebar.style.display = 'block';
     } else {
         closeSidebar();
     }
@@ -55,16 +55,16 @@ function changeStyle() {
 
 function closeSidebar() {
     state = 'close';
-    sidebar.style.display = 'none'
+    sidebar.style.display = 'none';
 }
 
 function closeWhitepaperPopup() {
     localStorage.setItem('isWhitepaper', 'true');
-    whitepaperPopup.style.display = 'none'
+    whitepaperPopup.style.display = 'none';
 }
 
 function closeSuscbribePopup() {
-    subscribePopup.style.display = 'none'
+    subscribePopup.style.display = 'none';
 }
 
 function sendEmail() {
@@ -73,15 +73,14 @@ function sendEmail() {
     var regex = /\S+@\S+\.\S+/;
 
     if(!email.value.length || (email.value.length && !regex.test(email.value))) {
-       error.style.display = 'block'
+       error.style.display = 'block';
     } else {
         error.style.display = 'none'
         var xhr = new XMLHttpRequest();
-        xhr.open("POST", 'http://54.172.183.97:8080/v1/mail/', true);
+        xhr.open("POST", 'https://api-hardcoin.ml/', true);
         xhr.setRequestHeader('Content-Type', 'application/json');
         xhr.send(JSON.stringify({mail: email.value}))
         subscribePopup.style.display = 'flex';
         email.value = '';
     }
-
 }
