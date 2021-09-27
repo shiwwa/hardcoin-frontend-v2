@@ -77,7 +77,7 @@ function sendEmail() {
     } else {
         error.style.display = 'none'
         var xhr = new XMLHttpRequest();
-        xhr.open("POST", 'https://api-hardcoin.ml/', true);
+        xhr.open("POST", 'https://api-hardcoin.ml/v1/mail', true);
         xhr.setRequestHeader('Content-Type', 'application/json');
         xhr.send(JSON.stringify({mail: email.value}))
         subscribePopup.style.display = 'flex';
