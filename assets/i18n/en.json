@@ -62,7 +62,7 @@
     "ORDER_PASS": "Get an NFT Pass."
   },
   "PROFITABLE": {
-    "WHY_PROFITABLE": "WHY IS IT PROFITABLE?",
+    "WHY_PROFITABLE": "Advantages",
     "OFFICIAL_CURRENCY": "HardCoin is the official digital currency of the platform. It has a fixed emission, that simplifies all financial interactions for fans and customers. Therefore:",
     "COMMUNITY_HARDCORE": "The large HardCore community will be motivated to regularly purchase HarcCoin tokens to pay for goods, services, tickets, access to private broadcasts, and other benefits.",
     "WHERE_BUY": "HardCoin will be the only currency of the NFT marketplace where you can purchase unique products and access various services.",
@@ -144,7 +144,8 @@
   },
   "PRESENTATION": "PDF",
   "WHITELIST": "Whitelist",
-  "NOTION": "Notion",
+  "NOTION": "Whitepaper",
+  "SEED": "Seed",
   "FIRST_MEDIA_PLATFORM": "The world's first blockchain media platform uniting millions of martial arts fans all over the world.",
   "SOCIAL_LINKS": "Our social networks",
   "APP": "App",
