@@ -3,7 +3,7 @@
 var state = 'close';
 var sidebar = document.querySelector('.sidebar');
 var link = document.querySelectorAll('.menu-link');
-var whitepaperPopup = document.querySelector('.whitepaper-popup');
+// var whitepaperPopup = document.querySelector('.whitepaper-popup');
 var subscribePopup = document.querySelector('.subscribe-popup');
 
 function init() {
@@ -13,6 +13,9 @@ function init() {
         })
     });
     window.addEventListener('scroll', function(e) {
+        closeSidebar();
+    })
+    window.addEventListener('click', function(e) {
         closeSidebar();
     })
 
@@ -36,15 +39,16 @@ function init() {
         lastTouch = currentTouch
     })
 
-    if(!localStorage.getItem('isWhitepaper')) {
-        whitepaperPopup.style.display = 'flex';
-    }
+    // if(!localStorage.getItem('isWhitepaper')) {
+    //     whitepaperPopup.style.display = 'flex';
+    // }
 
 }
 
 init();
 
-function changeStyle() {
+function isMenu(event) {
+    event.stopPropagation();
     if(state === 'close') {
         state = 'open';
         sidebar.style.display = 'block';
@@ -53,15 +57,19 @@ function changeStyle() {
     }
 }
 
+function eventStop (event) {
+    event.stopPropagation();
+}
+
 function closeSidebar() {
     state = 'close';
     sidebar.style.display = 'none';
 }
 
-function closeWhitepaperPopup() {
-    localStorage.setItem('isWhitepaper', 'true');
-    whitepaperPopup.style.display = 'none';
-}
+// function closeWhitepaperPopup() {
+//     localStorage.setItem('isWhitepaper', 'true');
+//     whitepaperPopup.style.display = 'none';
+// }
 
 function closeSuscbribePopup() {
     subscribePopup.style.display = 'none';

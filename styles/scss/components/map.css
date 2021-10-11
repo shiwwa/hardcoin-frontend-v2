@@ -47,7 +47,7 @@
         bottom: -220px;
     }
     .block-map-row {
-        padding: 0;
+        padding: 50% 0 0;
         flex-wrap: wrap;
     }
     .block-map-row ul {

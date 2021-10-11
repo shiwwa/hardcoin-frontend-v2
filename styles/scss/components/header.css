@@ -32,10 +32,13 @@
 .menu-button {
     background: url(../../../assets/image/background/white-button.svg) no-repeat;
     background-size: contain;
-    height: 59px;
-    min-width: 192px;
+    height: 46px;
+    min-width: 148px;
     margin-left: 8%;
     cursor: pointer;
+}
+.menu-button:last-child {
+    margin-left: 0;
 }
 .menu-button a {
     color: #E10000;
@@ -52,7 +55,7 @@
     animation: clickButton 0.5s ease;
 }
 .menu .logo {
-    margin-right: 4%;
+    margin-right: 2%;
     position: relative;
     top: 50px;
 }
@@ -96,7 +99,11 @@
         width: 120px;
     }
     .menu-button {
-        width: 192px;
+        width: 150px;
         margin: 0 auto;
+    }
+    .menu-button:last-child {
+        margin-left: auto;
+        margin-top: 10px;
     }
 }

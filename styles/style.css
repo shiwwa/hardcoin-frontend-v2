@@ -1801,21 +1801,27 @@ html body {
   height: 40px;
   width: 40px;
 }
-.footer .logo {
-  margin-top: -80px;
-}
 .footer .logo img{
   width: 160px;
+}
+.footer-container {
+  align-items: flex-start;
+}
+.footer-button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .footer-button {
   background: url(../assets/image/background/footer-button.png) no-repeat;
   background-size: contain;
-  height: 58px;
-  min-width: 275px;
+  height: 50px;
+  min-width: 234px;
   transition: filter 0.2s ease;
   cursor: pointer;
   position: relative;
   right: 15px;
+  margin-bottom: 10px;
 }
 .footer-button a {
   color: #fff;
@@ -1829,7 +1835,7 @@ html body {
   align-items: center;
   justify-content: center;
   position: relative;
-  padding-left: 30px;
+  /*padding-left: 30px;*/
 
 }
 .footer-button a:hover {
@@ -1840,17 +1846,6 @@ html body {
 }
 .footer-button:active {
   animation: clickButton 0.5s ease;
-}
-.footer-button:before {
-  content: '';
-  width: 14px;
-  height: 14px;
-  display: inline-block;
-  background: url(../assets/image/icons/download.svg) no-repeat;
-  background-size: contain;
-  margin-right: 15px;
-  left: 30px;
-  position: absolute;
 }
 .footer {
   padding: 40px 0 18px;
@@ -2021,9 +2016,6 @@ html body {
   .footer-row {
     margin-top: 20px;
   }
-  .footer .logo {
-    margin: 0;
-  }
 }
 @media (max-width: 575px) {
   .footer-button-container {
@@ -2033,6 +2025,10 @@ html body {
   }
   .block-board .block-title label {
     font-size: 20px;
+  }
+  .footer-button {
+    height: 37px;
+    min-width: 164px;
   }
 }
 
@@ -2070,7 +2066,7 @@ html body {
 }
 .lang-menu {
   position: absolute;
-  right: 225px;
+  right: 350px;
   min-width: 90px;
   text-align: center;
   color: #fff;

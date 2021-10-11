@@ -3,7 +3,7 @@
     "WHAT_IS_HARDCORE": "WHAT IS HARDCORE",
     "HOW_IT_WORK": "HOW IT WORKS",
     "PLATFORM": "PLATFORM",
-    "WHY_INVEST": "WHY INVEST",
+    "WHY_INVEST": "Advantages",
     "ROADMAP": "Roadmap",
     "NAVIGATION": "Navigation",
     "ECOSYSTEM": "Ecosystem",
@@ -143,6 +143,8 @@
     "ROADMAP_ITEM_29": "Launch of sports betting agency in the USA."
   },
   "PRESENTATION": "PDF",
+  "WHITELIST": "Whitelist",
+  "NOTION": "Notion",
   "FIRST_MEDIA_PLATFORM": "The world's first blockchain media platform uniting millions of martial arts fans all over the world.",
   "SOCIAL_LINKS": "Our social networks",
   "APP": "App",
