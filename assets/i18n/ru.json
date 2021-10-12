@@ -8,7 +8,7 @@
     "NAVIGATION": "Навигация",
     "ECOSYSTEM": "Экосистема",
     "TEAM": "Команда",
-    "GET_HARDCOIN": "Получить HardCoin",
+    "GET_HARDCOIN": "Видение",
     "DETACT_EVENTS": "Отслеживать события"
   },
   "WHAT_IS": {
@@ -101,8 +101,8 @@
     "KARINA_TEXT": "Основатель студии мобильной и веб-разработки Hilditonn. BA, Lead PM. Технический бизнес-консультант."
   },
   "PRESENTATION": "Презентация",
-  "WHITELIST": "Whitelist",
-  "NOTION": "Whitepaper",
+  "WHITELIST": "Join whitelist",
+  "NOTION": "Read docs",
   "SEED": "Seed",
   "FIRST_MEDIA_PLATFORM": "Первая в мире блокчейн медиа-платформа, объединяющая миллионы поклонников единоборств со всего мира.",
   "SOCIAL_LINKS": "Наши соц.сети",
