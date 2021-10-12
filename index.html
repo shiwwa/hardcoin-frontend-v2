@@ -237,7 +237,7 @@
                                 </span>
                         </div>
                         <div class="block-how-it-work-image">
-                            <img src="assets/image/background/phone.png"/>
+                            <img id="langImage" src="assets/image/background/en-phone.png"/>
                             <div data-aos="fade-right" data-aos-duration="600"  class="block-how-it-work-item">
                                 <span data-i18n="SIMPLE.GOODS_PAYMENT" class="block-how-it-work-text"></span>
                             </div>
@@ -718,12 +718,12 @@
     var langMenu = document.querySelectorAll('.lang-menu');
     const navLang = navigator.language.substr(0, 2);
     const lang = allowedLanguages.includes(navLang) ? navLang : 'en';
-
     translator._load(lang);
 
     function checkActiveLang(value) {
         langItem.forEach(item => {
             if(item.dataset.value === value) {
+                document.getElementById("langImage").src=`./assets/image/background/${value}-phone.png`;
                 item.classList.add('active');
             } else {
                 item.classList.remove('active');
