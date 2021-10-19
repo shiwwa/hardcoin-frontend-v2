@@ -19,26 +19,6 @@ function init() {
         closeSidebar();
     })
 
-    var lastTouch = null
-    var target = document.querySelector('.scrollable');
-    window.addEventListener('touchstart', function (event) {
-        lastTouch = event.touches[0]
-    })
-
-    window.addEventListener('touchend', function (event) {
-        lastTouch = null
-    })
-
-    window.addEventListener('touchmove', function (event) {
-        var currentTouch = event.changedTouches[0]
-
-        if (lastTouch) {
-            target.scrollLeft += currentTouch.clientX - lastTouch.clientX
-        }
-
-        lastTouch = currentTouch
-    })
-
     // if(!localStorage.getItem('isWhitepaper')) {
     //     whitepaperPopup.style.display = 'flex';
     // }

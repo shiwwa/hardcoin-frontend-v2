@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="plugin/owl_carousel/owl.carousel.min.css">
 
 </head>
 <body>
@@ -261,7 +262,7 @@
                         <p data-i18n="HOW_WORK.UNIQUE_OPPORTUNITY" class="content-text"></p>
                     </div>
                 </div>
-                <div class="scrollable">
+                <div class="owl-carousel">
                     <div>
                         <div class="block-really-work-item">
                             <label data-i18n="HOW_WORK.ADD_FIGHTER"  class="block-really-work-label"></label>
@@ -700,6 +701,8 @@
 
 <script type="text/javascript" src="./assets/js/index.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+<script src="plugin/owl_carousel/owl.carousel.min.js"></script>
 
 <script type="module">
     import Translator from "./assets/js/translator.js";
@@ -758,4 +761,22 @@
     // Initialize Firebase
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
+
+    $(document).ready(function(){
+      $(".owl-carousel").owlCarousel({
+        autoWidth: true,
+        stageClass: 'dotClass',
+        responsive:{
+          0:{
+            items:1,
+          },
+          600:{
+            items:3,
+          },
+          1000:{
+            items:4,
+          }
+        }
+      });
+    });
 </script>
