@@ -116,3 +116,10 @@ input, select {
 
 /*# sourceMappingURL=reset.css.map */
 
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}

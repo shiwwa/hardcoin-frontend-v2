@@ -1,0 +1,128 @@
+.text-field {
+    padding: 17px 16px;
+    height: 48px;
+    width: 100%;
+    border: 0;
+}
+
+.text-field-red {
+    padding: 17px 16px;
+    height: 48px;
+    width: 100%;
+    background: #7E0514;
+    color: white;
+    border: 0;
+}
+
+.button-red {
+    width: 100%;
+    height: 48px;
+    background: #FC1531;
+    border: 0;
+    font-family: 'TTSquaresCondensed';
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.button-black {
+    width: 100%;
+    height: 48px;
+    background: black;
+    border: 0;
+    font-family: 'TTSquaresCondensed';
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.button-disable {
+    background: #373737 !important;
+    cursor: default !important;
+    color: #ffffff90 !important;
+}
+
+input {
+    font-size: 20px;
+}
+
+input:focus-visible, button:focus-visible {
+    /*outline: 0;*/
+    outline: 1px solid black;
+}
+
+.link {
+    text-decoration: underline;
+    color: #F5223D;
+    cursor: pointer;
+}
+
+.gray-link {
+    text-decoration: underline;
+    color: #fff;
+    cursor: pointer;
+    opacity: 56%;
+}
+
+.white-link {
+    text-decoration: underline;
+    color: #fff;
+    cursor: pointer;
+}
+
+.account-menu {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .account-menu {
+        max-width: 678px;
+    }
+}
+
+.lines-background {
+    background-image: url("../../assets/image/block_background.svg");
+    background-size: cover;
+    background-position: center;
+    background-color: #161616;
+}
+
+.table-styles {
+    min-height: 463px;
+    border: 1px solid #595959;
+    background: #222222;
+}
+
+.table-styles .no-referral {
+    min-height: 398px;
+}
+
+table {
+    border: 1px solid #595959;
+}
+
+table td {
+    border-top: 1px solid #595959;
+    border-bottom: 1px solid #595959;
+    padding: 25px 31px;
+}
+
+table th {
+    text-align: start;
+    padding: 25px 31px;
+    font-size: 15px;
+    font-weight: 400;
+    border-bottom: 1px solid #595959;
+    cursor: pointer;
+}
+
+table .form-title {
+    position: relative;
+}
+
+table .sort {
+    content: '';
+    border: 5px solid transparent;
+    border-top: 5px solid white;
+    position: absolute;
+    right: -15px;
+    top: 6px;
+}

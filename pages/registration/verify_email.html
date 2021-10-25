@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hardcore</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/image/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/image/favicons/android-chrome-192x192.png">
+  <meta name="msapplication-TileColor" content="#FC1531">
+  <meta name="theme-color" content="#FC1531">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles/style.css">
+
+</head>
+<body>
+<div class="wrapper">
+  <div class="container flex-center flex-column h-100 px-5">
+    <img class="logo mt-10 mb-3" src="../../assets/image/logo.png" alt="Hardcoin">
+    <h1 class="size32-weight700 mb-10 text-align-center">Welcome to HardCoin <br> Tokensale</h1>
+    <div class="module-border-wrap">
+      <div class="login-card main-black h-100 w-100 d-flex justify-space-around align-start flex-column">
+        <div class="w-100 text-align-center">
+          <img class="mt-10" src="../../assets/icons/Vector.svg" alt="icon">
+          <div class="size32-weight400 mt-8 mb-6 text-align-center">Verify your email</div>
+          <div class="size15-weight400 mb-3">We send a magic link to your email <span class="main-red-text">shol**@gmail.com</span></div>
+          <div class="size15-weight400 mb-3">Please verify your email to continue registration</div>
+        </div>
+
+        <div class="size15-weight400 d-flex justify-center w-100 mb-5">
+          <a href="../../index.html" class="link">Cancel registration</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+
+<script type="text/javascript" src="../../assets/js/index.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script type="module">
+  import Translator from "../../assets/js/translator.js";
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js";
+  import { getAnalytics, logEvent } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-analytics.js";
+
+  AOS.init();
+
+  var translator = new Translator({
+    persist: false,
+    languages: ["ru", "en"],
+    defaultLanguage: "en",
+    detectLanguage: true,
+    filesLocation: "./assets/i18n"
+  });
+
+  var allowedLanguages = ['en', 'ru'];
+  var langItem = document.querySelectorAll('.lang-item');
+  var langMenu = document.querySelectorAll('.lang-menu');
+  const navLang = navigator.language.substr(0, 2);
+  const lang = allowedLanguages.includes(navLang) ? navLang : 'en';
+  translator._load(lang);
+
+  function checkActiveLang(value) {
+    langItem.forEach(item => {
+      if(item.dataset.value === value) {
+        document.getElementById("langImage").src=`./assets/image/background/${value}-phone.png`;
+        item.classList.add('active');
+      } else {
+        item.classList.remove('active');
+      }
+    })
+  }
+
+  checkActiveLang(lang);
+
+  langMenu.forEach(item => {
+    item.addEventListener("click", function(evt) {
+      if (evt.target.tagName === 'SPAN') {
+        translator._load(evt.target.dataset.value);
+        checkActiveLang(evt.target.dataset.value);
+      }
+    });
+  })
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyCR73lnXgboUWqkcsuRNr-6oZyw_iXQgj4",
+    authDomain: "hardcoin-eec8a.firebaseapp.com",
+    projectId: "hardcoin-eec8a",
+    storageBucket: "hardcoin-eec8a.appspot.com",
+    messagingSenderId: "607708895488",
+    appId: "1:607708895488:web:e0be5d93e2c089e0903be5",
+    measurementId: "G-H7K5V57F4B"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+
+  $(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+      autoWidth: true,
+      stageClass: 'dotClass',
+      responsive:{
+        0:{
+          items:1,
+        },
+        600:{
+          items:3,
+        },
+        1000:{
+          items:4,
+        }
+      }
+    });
+  });
+</script>

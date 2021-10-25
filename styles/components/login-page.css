@@ -1,0 +1,25 @@
+.module-border-wrap {
+    position: relative;
+    background: linear-gradient(to bottom, #FFFFFF, #ffffff00);
+    padding: 3px 3px 0;
+    height: 100%;
+    width: 561px;
+}
+
+@media (max-width: 768px) {
+    .module-border-wrap {
+        width: 100%;
+    }
+}
+
+.login-card {
+    border-bottom: 0;
+    background: #161616;
+    padding: 2rem 2rem 0;
+}
+
+@media (max-width: 768px) {
+    .login-card {
+        padding: 0 1rem 0;
+    }
+}

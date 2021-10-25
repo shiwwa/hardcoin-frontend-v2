@@ -35,6 +35,8 @@ const del         = require('del')
 // SourceMaps, add path impacted file (https://www.npmjs.com/package/gulp-sourcemaps)
 const sourcemaps  = require('gulp-sourcemaps')
 
+const reload      = browsersync.reload;
+
 // PATH
 const paths = {
   css: {
@@ -52,6 +54,10 @@ const browserSyncWatch = () => {
     server: { baseDir: "./" },
     port: 3000
   })
+}
+
+const fileWatcher = () => {
+  gulp.watch(["*.html", "**/*.html", "**/*.css", "**/*.js"]).on("change", reload);
 }
 
 // CLEAN FOLDER
@@ -78,7 +84,7 @@ const watchFiles = () =>
   gulp.watch('./styles/scss/**/*.scss', styles)
 
 // PROCESS :
-const watcher = gulp.parallel(watchFiles, browserSyncWatch)
+const watcher = gulp.parallel(watchFiles, browserSyncWatch, fileWatcher)
 const build = gulp.series(clean, gulp.parallel(styles));
 
 // EXPORT TASK

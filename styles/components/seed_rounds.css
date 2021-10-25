@@ -1,0 +1,9 @@
+.buy-block-width {
+    max-width: 441px;
+}
+
+@media (min-width: 768px) {
+    .buy-block-width {
+        min-width: 441px;
+    }
+}

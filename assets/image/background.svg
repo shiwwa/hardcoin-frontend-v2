@@ -1,0 +1,70 @@
+<svg width="1440" height="919" viewBox="0 0 1440 919" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.2">
+<g opacity="0.1" clip-path="url(#clip0_22:1921)">
+<path d="M689.5 5638L689.5 -242" stroke="#ECECEC"/>
+<path d="M569.5 5638L569.5 -242" stroke="#ECECEC"/>
+<path d="M389.5 5638L389.5 -242" stroke="#ECECEC"/>
+<path d="M209.5 5638L209.5 -242" stroke="#ECECEC"/>
+<path d="M29.4997 5638L29.5 -242" stroke="#ECECEC"/>
+<path d="M509.5 5638L509.5 -242" stroke="#ECECEC"/>
+<path d="M329.5 5638L329.5 -242" stroke="#ECECEC"/>
+<path d="M149.5 5638L149.5 -242" stroke="#ECECEC"/>
+<path d="M629.5 5638L629.5 -242" stroke="#ECECEC"/>
+<path d="M449.5 5638L449.5 -242" stroke="#ECECEC"/>
+<path d="M269.5 5638L269.5 -242" stroke="#ECECEC"/>
+<path d="M89.4997 5638L89.5 -242" stroke="#ECECEC"/>
+<path d="M720 58.5L-360 58.5" stroke="#ECECEC"/>
+<path d="M720 298.5L-360 298.5" stroke="#ECECEC"/>
+<path d="M720 538.501L-360 538.501" stroke="#ECECEC"/>
+<path d="M720 778.5L-360 778.5" stroke="#ECECEC"/>
+<path d="M720 178.5L-360 178.5" stroke="#ECECEC"/>
+<path d="M720 418.501L-360 418.501" stroke="#ECECEC"/>
+<path d="M720 658.501L-360 658.501" stroke="#ECECEC"/>
+<path d="M720 898.5L-360 898.5" stroke="#ECECEC"/>
+<path d="M720 118.5L-360 118.5" stroke="#ECECEC"/>
+<path d="M720 358.5L-360 358.5" stroke="#ECECEC"/>
+<path d="M720 598.501L-360 598.501" stroke="#ECECEC"/>
+<path d="M720 838.5L-360 838.5" stroke="#ECECEC"/>
+<path d="M720 238.5L-360 238.5" stroke="#ECECEC"/>
+<path d="M720 478.501L-360 478.501" stroke="#ECECEC"/>
+<path d="M720 718.501L-360 718.501" stroke="#ECECEC"/>
+</g>
+<g opacity="0.1" clip-path="url(#clip1_22:1921)">
+<path d="M1289.5 5638L1289.5 -242" stroke="#ECECEC"/>
+<path d="M1109.5 5638L1109.5 -242" stroke="#ECECEC"/>
+<path d="M929.5 5638L929.5 -242" stroke="#ECECEC"/>
+<path d="M1409.5 5638L1409.5 -242" stroke="#ECECEC"/>
+<path d="M1229.5 5638L1229.5 -242" stroke="#ECECEC"/>
+<path d="M1049.5 5638L1049.5 -242" stroke="#ECECEC"/>
+<path d="M869.5 5638L869.5 -242" stroke="#ECECEC"/>
+<path d="M809.5 5638L809.5 -242" stroke="#ECECEC"/>
+<path d="M1349.5 5638L1349.5 -242" stroke="#ECECEC"/>
+<path d="M1169.5 5638L1169.5 -242" stroke="#ECECEC"/>
+<path d="M989.5 5638L989.5 -242" stroke="#ECECEC"/>
+<path d="M749.5 5638L749.5 -242" stroke="#ECECEC"/>
+<path d="M1800 58.5L720 58.5" stroke="#ECECEC"/>
+<path d="M1800 298.5L720 298.5" stroke="#ECECEC"/>
+<path d="M1800 538.501L720 538.501" stroke="#ECECEC"/>
+<path d="M1800 778.5L720 778.5" stroke="#ECECEC"/>
+<path d="M1800 178.5L720 178.5" stroke="#ECECEC"/>
+<path d="M1800 418.501L720 418.501" stroke="#ECECEC"/>
+<path d="M1800 658.501L720 658.501" stroke="#ECECEC"/>
+<path d="M1800 898.5L720 898.5" stroke="#ECECEC"/>
+<path d="M1800 118.5L720 118.5" stroke="#ECECEC"/>
+<path d="M1800 358.5L720 358.5" stroke="#ECECEC"/>
+<path d="M1800 598.501L720 598.501" stroke="#ECECEC"/>
+<path d="M1800 838.5L720 838.5" stroke="#ECECEC"/>
+<path d="M1800 238.5L720 238.5" stroke="#ECECEC"/>
+<path d="M1800 478.501L720 478.501" stroke="#ECECEC"/>
+<path d="M1800 718.501L720 718.501" stroke="#ECECEC"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_22:1921">
+<rect width="5880" height="1080" fill="white" transform="translate(720 -242) rotate(90)"/>
+</clipPath>
+<clipPath id="clip1_22:1921">
+<rect width="5880" height="1080" fill="white" transform="translate(1800 -242) rotate(90)"/>
+</clipPath>
+</defs>
+</svg>

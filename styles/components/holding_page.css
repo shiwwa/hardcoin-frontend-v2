@@ -1,0 +1,13 @@
+.red-block {
+    position: relative;
+}
+
+.red-block:before {
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: -15px;
+    border: 15px solid transparent;
+    border-top: 15px solid black;
+    transform: rotate(135deg);
+}

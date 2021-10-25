@@ -1,0 +1,41 @@
+header {
+    border-bottom: 1px solid #FFFFFF54;
+    padding: 20px 28px;
+}
+
+nav a {
+    position: relative;
+}
+
+.nav-active::after {
+    content: '';
+    position: absolute;
+    bottom: -44px;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid red;
+}
+
+.hfc-purse img {
+    border: 1px solid #FFFFFF38;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.account_button {
+    background: #191919;
+    padding: 10px;
+;
+}
+
+.account_button .metamask_icon {
+    background-color: #3E3E3E54;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.account_name {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 70px;
+}

@@ -1,0 +1,41 @@
+.live-info {
+    color: #FC1531;
+    background: #FC153145;
+    padding: 6px 25px;
+}
+
+.supply-block span {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.color-5B080F {
+    background: #5B080F;
+}
+.color-BD1025 {
+    background: #BD1025;
+}
+.color-FF6969 {
+    background: #FF6969;
+}
+.color-FC3053 {
+    background: #FC3053;
+}
+.color-FC1531 {
+    background: #FC1531;
+}
+.color-E51638 {
+    background: #E51638;
+}
+.color-C41532 {
+    background: #C41532;
+}
+.color-8E0E1C {
+    background: #8E0E1C;
+}
+.color-830818 {
+    background: #830818;
+}

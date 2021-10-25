@@ -1,699 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hardcore</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/image/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="./assets/image/favicons/android-chrome-192x192.png">
-    <meta name="msapplication-TileColor" content="#FC1531">
-    <meta name="theme-color" content="#FC1531">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="plugin/owl_carousel/owl.carousel.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hardcore</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/image/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/image/favicons/android-chrome-192x192.png">
+  <meta name="msapplication-TileColor" content="#FC1531">
+  <meta name="theme-color" content="#FC1531">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css">
 
 </head>
 <body>
 <div class="wrapper">
-    <Header class="container-fluid">
-        <div class="desktop-menu col flex-space-between align-center  menu menu-header mt-4">
-            <div class="logo">
-                <a href="#"><img alt="Logo" src="assets/image/logo.svg"/></a>
-            </div>
-            <div class="menu-link">
-                <a data-i18n="NAV.WHAT_IS_HARDCORE" href="#what_is"></a>
-            </div>
-            <div class="menu-link">
-                <a data-i18n="NAV.HOW_IT_WORK" href="#how_it_work"></a>
-            </div>
-            <div class="menu-link">
-                <a data-i18n="NAV.PLATFORM" href="#platform"></a>
-            </div>
-            <div class="menu-link">
-                <a data-i18n="NAV.WHY_INVEST" href="#profitable"></a>
-            </div>
-            <div class="menu-link">
-                <a data-i18n="NAV.ROADMAP" href="#roadmap"></a>
-            </div>
-            <div class="lang-menu">
-                <span data-value="ru" class="lang-item">ру</span> /
-                <span data-value="en" class="lang-item">en</span>
-            </div>
-            <div class="menu-button flex-center">
-                <a data-i18n="WHITELIST" href="https://sweepwidget.com/view/35705-tfjgi2p3 " target="_blank"></a>
-            </div>
-            <div class="menu-button flex-center">
-                <a data-i18n="NOTION" href="https://hardcorefc.notion.site/hardcorefc/Hardcore-Fighting-Championship-3e9858fb541f47f8a5c88f7a462ffc9e"
-                   target="_blank"></a>
-            </div>
-        </div>
-        <div class="mobile-menu">
-            <div class="col flex-space-between align-center  menu menu-header mt-4 ">
-                <div onclick="isMenu(event)"  class="burger-menu">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
-                        <path d="M7.94995 35.95H39.95M7.94995 11.95H39.95H7.94995ZM7.94995 23.95H39.95H7.94995Z" stroke="#FC1531" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <div onclick="eventStop(event)" class="sidebar">
-                    <div class="menu-link">
-                        <a data-i18n="NAV.WHAT_IS_HARDCORE" href="#what_is"></a>
-                    </div>
-                    <div class="menu-link">
-                        <a  data-i18n="NAV.HOW_IT_WORK" href="#how_it_work"></a>
-                    </div>
-                    <div class="menu-link">
-                        <a data-i18n="NAV.PLATFORM" href="#platform"></a>
-                    </div>
-                    <div class="menu-link">
-                        <a data-i18n="NAV.WHY_INVEST" href="#profitable"></a>
-                    </div>
-                    <div class="menu-link">
-                        <a data-i18n="NAV.ROADMAP" href="#roadmap"></a>
-                    </div>
-                    <div class="lang-menu">
-                        <span data-value="ru" class="lang-item">ру</span> /
-                        <span data-value="en" class="lang-item">en</span>
-                    </div>
-                    <div class="menu-button flex-center">
-                        <a data-i18n="WHITELIST" href="https://sweepwidget.com/view/35705-tfjgi2p3" target="_blank"></a>
-                    </div>
-                    <div class="menu-button flex-center">
-                        <a data-i18n="NOTION" href="https://hardcorefc.notion.site/hardcorefc/Hardcore-Fighting-Championship-3e9858fb541f47f8a5c88f7a462ffc9e"
-                           target="_blank"></a>
-                    </div>
-                </div>
-            </div>
+  <div class="container flex-center flex-column h-100 px-5">
+    <img class="logo mt-10 mb-3" src="./assets/image/logo.png" alt="Hardcoin">
+    <h1 class="size32-weight700 mb-10 text-align-center">Welcome to HardCoin <br> Tokensale</h1>
+    <div class="module-border-wrap">
+      <div class="login-card main-black h-100 w-100 d-flex justify-space-around align-start flex-column">
+        <div class="w-100">
+          <div class="size32-weight400 py-6 text-align-center">Login to account</div>
+          <div class="d-flex flex-column mb-3">
+            <label for="uemail" class="size14-weight400 mb-1"><b>EMAIL</b></label>
+            <input class="text-field" type="text" placeholder="Email@example.com" name="uemail" id="uemail">
+          </div>
+          <div class="d-flex flex-column mb-3">
+            <label for="psw" class="size14-weight400 mb-1"><b>PASSWORD</b></label>
+            <input class="text-field" type="password" placeholder="****" name="psw" id="psw">
+          </div>
+
+          <a href="pages/dashboard/investing_rounds.html">
+            <button type="submit" class="button-red size16-weight700 mb-3">LOGIN</button>
+          </a>
+
+          <a
+            href="pages/farget-password-page/restore_access.html"
+            class="gray-link size14-weight400 d-flex justify-center mb-5"
+          >
+            Forget Password?
+          </a>
+
         </div>
 
-    </Header>
-    <main>
-        <div class="banner-first-path">
-            <div class="big-container">
-                <div class="banner-content">
-                    <h1 class="banner-text title">HARDCORE FIGHTING PLATFORM</h1>
-                    <p data-aos="zoom-in" data-aos-duration="1200" data-i18n="FIRST_MEDIA_PLATFORM" class="banner-text"></p>
-                </div>
-                <div data-aos="zoom-in" data-aos-duration="1200" class="banner-button">
-                    <a data-i18n="WHITELIST" href="https://sweepwidget.com/view/35705-tfjgi2p3" target="_blank"></a>
-                </div>
-                <div class="banner-row flex-space-between">
-                   <span  class="banner-link">
-                        <a href="https://play.google.com/store/apps/details?id=com.sly13.hardcore&hl=en&gl=US" target="_blank">
-                            <div data-aos="zoom-in" data-aos-duration="1200" class="button-google-store"></div>
-                        </a>
-                        <a  href="https://apps.apple.com/by/app/fist-fights/id1546482724"  target="_blank">
-                            <div data-aos="zoom-in" data-aos-duration="1200" class="button-app-store"></div>
-                        </a>
-                    </span>
-                    <a target="_blank" href="https://dao.vc" class="banner-dao">
-                        <span>Powered by</span>
-                        <img src="assets/image/dao.png"/>
-                    </a>
-                    <div class="banner-socials footer-row">
-                        <label data-i18n="SOCIAL_LINKS" class="footer-label"></label>
-                        <div class="social-links flex-start">
-                            <a href="https://medium.com/@Hardcoin" target="_blank" class="mr-3">
-                                <div class="button-medium"></div>
-                            </a>
-                            <a href="https://www.instagram.com/hardcore.fighting/" target="_blank" class="mr-3">
-                                <div class="button-instagram"></div>
-                            </a>
-                            <a href="https://t.me/Hardcoin_chatru" target="_blank" class="mr-3">
-                                <div class="button-tg"></div>
-                            </a>
-                            <a href="http://facebook.com/HHardcoin" target="_blank" class="mr-3">
-                                <div class="button-facebook"></div>
-                            </a>
-                            <a href="https://twitter.com/HHardcoin" target="_blank" class="mr-3">
-                                <div class="button-twitter"></div>
-                            </a>
-                            <a href="https://www.youtube.com/channel/UC1_FrNtrgzFPQVHuwAAR3xQ" target="_blank"
-                               class="mr-3">
-                                <div class="button-youtub"></div>
-                            </a>
-<!--                            <a href="#">-->
-<!--                                <div class="button-vk"></div>-->
-<!--                            </a>-->
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-            <img class="banner-image" src="assets/image/fighters.png"/>
+        <div class="size15-weight400 d-flex justify-center w-100 mb-5">
+          <div class="mr-3">Don’t have an account?</div>
+          <a href="pages/registration/registration.html" class="link">Register now</a>
         </div>
-        <div class="main-content">
-            <div class="medium-container">
-                <div id="what_is" class="block-what-it block-padding">
-                    <div data-aos="fade-right" class="title-wrapper title-sm-wrapper">
-                        <label data-i18n="WHAT_IS.WHAT_IS_HARDCORE" class="content-title"></label>
-                        <p data-i18n="WHAT_IS.HARDCORE_MEDIA_BIGGEST_SHOW" class="content-text"></p>
-                    </div>
-                    <div class="block-what-it-content flex-space-between">
-                        <div class="block-what-it-content-row">
-                            <div class="block-what-it-content-item">
-                                <span class="block-what-it-numbers">100+</span>
-                                <span data-i18n="WHAT_IS.TOURNAMENTS" class="block-what-it-text"></span>
-                            </div>
-                            <div class="block-what-it-content-item">
-                                <span class="block-what-it-numbers">10</span>
-                                <span data-i18n="WHAT_IS.COUNTRIES" class="block-what-it-text"></span>
-                            </div>
-                        </div>
-                        <div class="block-what-it-content-row">
-                            <div class="block-what-it-content-item">
-                                <span class="block-what-it-numbers">2 900 000</span>
-                                <span data-i18n="WHAT_IS.SUBSCRIBES" class="block-what-it-text"></span>
-                            </div>
-                            <div class="block-what-it-content-item">
-                                <span class="block-what-it-numbers">189 000 000</span>
-                                <span data-i18n="WHAT_IS.VIEWS_YOUTUBE" class="block-what-it-text"></span>
-                            </div>
-                            <div class="block-what-it-content-item">
-                                <span class="block-what-it-numbers">2 500 000</span>
-                                <span data-i18n="WHAT_IS.PER_VIEW" class="block-what-it-text"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="platform" class="block-ecosystem block-padding">
-                <div class="medium-container">
-                    <div class="title-wrapper title-sm-wrapper">
-                        <label data-i18n="ECOSYSTEM.ECOSYSTEM_HARDCORE" class="content-title"></label>
-                        <p data-i18n="ECOSYSTEM.FIGHTING_WORLD" class="content-text"></p>
-                    </div>
-                    <div class="flex-end">
-                        <div data-aos="fade-down" data-aos-duration="800" class="block-ecosystem-list block-ecosystem-list-red">
-                            <label data-i18n="ECOSYSTEM.FOR_FANS" class="block-ecosystem-list-title"> </label>
-                            <ul>
-                                <li data-i18n="ECOSYSTEM.PRIVATE_PARTICIPATION"> </li>
-                                <li data-i18n="ECOSYSTEM.ACCESS_TO_BUY"> </li>
-                                <li data-i18n="ECOSYSTEM.ABILITY_INFLUENCE"> </li>
-                                <li data-i18n="ECOSYSTEM.ACCESS_EXCLUSIVE_CONTENT"> </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="flex-start">
-                        <div data-aos="fade-up" data-aos-duration="1600" class="block-ecosystem-list block-ecosystem-list-blue">
-                            <label data-i18n="ECOSYSTEM.FOR_PARTNERS" class="block-ecosystem-list-title"></label>
-                            <ul>
-                                <li data-i18n="ECOSYSTEM.BONUS"> </li>
-                                <li data-i18n="ECOSYSTEM.ATTENTION"> </li>
-                                <li data-i18n="ECOSYSTEM.PARTICIPATION_IN_BATTLE"> </li>
-                                <li data-i18n="ECOSYSTEM.OWN_BRAND"> </li>
-                                <li data-i18n="ECOSYSTEM.SCALING_BUSINESS"> </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-            <div class="block-video">
-                <div class="block-video-container">
-                    <div class="block-item">
-                        <video  poster="assets/image/background/preview.png" class="video-content" width="100%" controls>
-                            <source src="assets/image/video/video.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-            </div>
-            <div id="how_it_work" class="block-how-it-work block-padding">
-                <div class="medium-container">
-                    <div class="flex-space-between">
-                        <div class="block-how-it-work-title">
-                            <div class="title-wrapper">
-                                <label data-i18n="SIMPLE.SIMPLE_AVAILABLE" class="content-title"></label>
-                                <p data-i18n="SIMPLE.MOBILE_APP" class="content-text"></p>
-                            </div>
-                            <span class="banner-link">
-                                    <a href="https://play.google.com/store/apps/details?id=com.sly13.hardcore&hl=en&gl=US"  target="_blank">
-                                        <div data-aos="zoom-in" data-aos-duration="1200" class="button-google-store aos-init aos-animate"></div>
-                                    </a>
-                                    <a href="https://apps.apple.com/by/app/fist-fights/id1546482724"  target="_blank">
-                                        <div data-aos="zoom-in" data-aos-duration="1200" class="button-app-store aos-init aos-animate"></div>
-                                    </a>
-                                </span>
-                        </div>
-                        <div class="block-how-it-work-image">
-                            <img id="langImage" src="assets/image/background/en-phone.png"/>
-                            <div data-aos="fade-right" data-aos-duration="600"  class="block-how-it-work-item">
-                                <span data-i18n="SIMPLE.GOODS_PAYMENT" class="block-how-it-work-text"></span>
-                            </div>
-                            <div data-aos="fade-right" data-aos-duration="1200"  class="block-how-it-work-item">
-                                <span data-i18n="SIMPLE.LOYALTY_PROGRAM" class="block-how-it-work-text"></span>
-                            </div>
-                            <div data-aos="fade-right" data-aos-duration="2000"  class="block-how-it-work-item">
-                                <span data-i18n="SIMPLE.BUY_TOKENS" class="block-how-it-work-text"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="how_it_real_work" class="block-how-it-real-work block-padding">
-                <div class="medium-container">
-                    <div data-aos="fade-right" class="title-wrapper title-sm-wrapper">
-                        <label data-i18n="HOW_WORK.HOW_IT_WORK"  class="content-title"></label>
-                        <p data-i18n="HOW_WORK.UNIQUE_OPPORTUNITY" class="content-text"></p>
-                    </div>
-                </div>
-                <div class="owl-carousel">
-                    <div>
-                        <div class="block-really-work-item">
-                            <label data-i18n="HOW_WORK.ADD_FIGHTER"  class="block-really-work-label"></label>
-                        </div>
-                        <div class="block-really-work-item">
-                            <label data-i18n="HOW_WORK.PRIVATE_MEET"  class="block-really-work-label"></label>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="block-really-work-item">
-                            <label data-i18n="HOW_WORK.GET_ACCESS_FOR_MERCH" class="block-really-work-label"></label>
-                        </div>
-                        <div class="block-really-work-item">
-                            <label data-i18n="HOW_WORK.SUPPORT_FIGHTERS" class="block-really-work-label"></label>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="block-really-work-item">
-                            <label data-i18n="HOW_WORK.BUY_UNIQUE_GOODS" class="block-really-work-label"></label>
-                        </div>
-                        <div class="block-really-work-item">
-                            <label data-i18n="HOW_WORK.COLLECT_NFT" class="block-really-work-label"></label>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="block-really-work-item">
-                            <label data-i18n="HOW_WORK.GET_DISCOUNT" class="block-really-work-label"></label>
-                        </div>
-                        <div class="block-really-work-item">
-                            <label data-i18n="HOW_WORK.GET_ACCESS_TO_CLOSE_BATTLES"  class="block-really-work-label"></label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="profitable" class="block-profitable block-padding">
-                <div class="medium-container">
-                    <div class="title-wrapper title-sm-wrapper">
-                        <label data-i18n="PROFITABLE.WHY_PROFITABLE" class="content-title"></label>
-                        <p data-i18n="PROFITABLE.OFFICIAL_CURRENCY" class="content-text"></p>
-                    </div>
-                    <div data-aos="fade-down" data-aos-duration="600" class="block-profitable-row flex-space-between">
-                        <div class="block-profitable-item">
-                            <span class="block-profitable-number">01</span>
-                        </div>
-                        <div class="block-profitable-item">
-                            <span data-i18n="PROFITABLE.COMMUNITY_HARDCORE" class="block-profitable-text"></span>
-                        </div>
-                    </div>
-                    <div data-aos="fade-down" data-aos-duration="1200" class="block-profitable-row flex-space-between">
-                        <div class="block-profitable-item">
-                            <span class="block-profitable-number">02</span>
-                        </div>
-                        <div class="block-profitable-item">
-                            <span data-i18n="PROFITABLE.WHERE_BUY" class="block-profitable-text"></span>
-                        </div>
-                    </div>
-                    <div data-aos="fade-down" data-aos-duration="1800" class="block-profitable-row flex-space-between">
-                        <div class="block-profitable-item">
-                            <span class="block-profitable-number">03</span>
-                        </div>
-                        <div class="block-profitable-item">
-                            <span data-i18n="PROFITABLE.COLLECTION_NFT" class="block-profitable-text"></span>
-                        </div>
-                    </div>
-                    <div data-aos="fade-down" data-aos-duration="2400" class="block-profitable-row flex-space-between">
-                        <div class="block-profitable-item">
-                            <span class="block-profitable-number">04</span>
-                        </div>
-                        <div class="block-profitable-item">
-                            <span data-i18n="PROFITABLE.USE_TECHNOLOGIES" class="block-profitable-text"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="view" class="block-map block-padding">
-                <div class="medium-container">
-                    <div class="title-wrapper title-sm-wrapper">
-                        <label data-i18n="VIEW.VIEW_TITLE" class="content-title"></label>
-                        <p data-i18n="VIEW.LAUNCHING_INTERNATIONAL_FRANCHISE"  class="content-text"></p>
-                    </div>
-                    <div class="block-map-row">
-                        <ul  data-aos="fade-up" data-aos-duration="600">
-                            <li class="usa-label map-label"><img src="assets/image/usa.svg"><span data-i18n="VIEW.USA"></span></li>
-                            <li data-i18n="VIEW.NFC_ON_MARKET"></li>
-                            <li data-i18n="VIEW.AGENCY_USA"></li>
-                        </ul>
-                        <ul data-aos="fade-up" data-aos-duration="1200">
-                            <li class="ru-label map-label"><img src="assets/image/russia.svg"><span data-i18n="VIEW.RUSSIA" ></span></li>
-                            <li data-i18n="VIEW.HARDCORE_TV"></li>
-                            <li data-i18n="VIEW.OPEN_ARENA"></li>
-                            <li data-i18n="VIEW.FIRST_FIGHTER_CLUB"></li>
-                            <li data-i18n="VIEW.CLOTHES"></li>
-                            <li data-i18n="VIEW.SPORT_FOOD"></li>
-                            <li data-i18n="VIEW.ENERGY_DRINK"></li>
-                        </ul>
-                        <ul data-aos="fade-up" data-aos-duration="1800">
-                            <li class="thai-label map-label"><img src="assets/image/thai.svg"><span data-i18n="VIEW.THAILAND" ></span></li>
-                            <li data-i18n="VIEW.HARDCORE_TOURNAMENT"></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <section id="roadmap" class="roadmap  block-padding">
-                <div class="medium-container">
-                    <div class="title-wrapper title-sm-wrapper">
-                        <label data-i18n="ROADMAP.ROADMAP_TITLE" class="content-title"></label>
-                    </div>
-                    <ul class="road-map-list">
-                        <li class="road-map-list__item">
-                            <div class="road-map-list__date">
-                                <span class="road-map-list__year">2021</span>
-                                <span class="road-map-list__quarter">Q3</span>
-                            </div>
-                            <div class="road-map-list__info">
-                                <ul class="common-list">
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_1"></li>
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_2"></li>
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_3"></li>
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_4"></li>
-                                </ul>
-                                <ul class="common-list">
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_5"></li>
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_6"></li>
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_7"></li>
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_8"></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li data-aos="fade-down" data-aos-duration="1500" class="road-map-list__item">
-                            <div class="road-map-list__date">
-                                <span class="road-map-list__year">2021</span>
-                                <span class="road-map-list__quarter">Q4</span>
-                            </div>
-                            <div class="road-map-list__info">
-                                <ul class="common-list">
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_9"></li>
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_10"></li>
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_11"></li>
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_12"></li>
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_13"></li>
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_14"></li>
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_15"></li>
-                                </ul>
-                                <ul class="common-list">
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_16"></li>
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_17"></li>
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_18"></li>
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_19"></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li data-aos="fade-down" data-aos-duration="1500" class="road-map-list__item">
-                            <div class="road-map-list__date">
-                                <span class="road-map-list__year">2022</span>
-                                <span class="road-map-list__quarter">Q1</span>
-                            </div>
-                            <div class="road-map-list__info">
-                                <ul class="common-list">
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_20"></li>
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_21"></li>
-                                </ul>
-                                <ul class="common-list">
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_22"></li>
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_23"></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li data-aos="fade-down" data-aos-duration="1500" class="road-map-list__item">
-                            <div class="road-map-list__date">
-                                <span class="road-map-list__year">2022</span>
-                                <span class="road-map-list__quarter">Q2</span>
-                            </div>
-                            <div class="road-map-list__info">
-                                <ul class="common-list">
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_24"></li>
-                                </ul>
-                                <ul class="common-list">
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_25"></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li data-aos="fade-down" data-aos-duration="1500" class="road-map-list__item">
-                            <div class="road-map-list__date">
-                                <span class="road-map-list__year">2022</span>
-                                <span class="road-map-list__quarter">Q3</span>
-                            </div>
-                            <div class="road-map-list__info">
-                                <ul class="common-list">
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_26"></li>
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_27"></li>
-                                </ul>
-                                <ul class="common-list">
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_28"></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li data-aos="fade-down" data-aos-duration="1500" class="road-map-list__item">
-                            <div class="road-map-list__date">
-                                <span class="road-map-list__year">2022</span>
-                                <span class="road-map-list__quarter">Q4</span>
-                            </div>
-                            <div class="road-map-list__info">
-                                <ul class="common-list">
-                                    <li data-i18n="ROADMAP.ROADMAP_ITEM_29"></li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <div id="team" class="block-command block-padding">
-                <div class="medium-container">
-                    <div data-aos="fade-right" class="title-wrapper">
-                        <label data-i18n="TEAM.TEAM_TITLE" class="content-title"></label>
-                    </div>
-                    <div class="flex-space-between block-command-row">
-                        <div>
-                            <img src="assets/image/team/Pic1.png"/>
-                            <label data-i18n="TEAM.ANATOLIY"></label>
-                            <span data-i18n="TEAM.CEO"></span>
-                            <p data-i18n="TEAM.ANATOLIY_TEXT"></p>
-                        </div>
-                        <div>
-                            <img src="assets/image/team/Pic2.png"/>
-                            <label data-i18n="TEAM.EUGENE"></label>
-                            <span data-i18n="TEAM.ADVISOR"></span>
-                            <p data-i18n="TEAM.EUGENE_TEXT"></p>
-                        </div>
-                        <div>
-                            <img src="assets/image/team/Pic3.png"/>
-                            <label data-i18n="TEAM.GEORGE"></label>
-                            <span data-i18n="TEAM.FOUNDER"></span>
-                            <p data-i18n="TEAM.GEORGE_TEXT"></p>
-                        </div>
-
-
-                        <div>
-                            <img src="assets/image/team/Pic4.png"/>
-                            <label data-i18n="TEAM.KARINA"></label>
-                            <span data-i18n="TEAM.CDO"></span>
-                            <p data-i18n="TEAM.KARINA_TEXT"></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="block-partners">
-                <div class="medium-container">
-                    <div class="partners">
-                        <div class="block-title">
-                            <label data-i18n="PARTNERS"></label>
-                        </div>
-                        <div class="flex-space-between block-partners-row">
-                            <div data-aos="zoom-in" data-aos-duration="500"><img src="assets/image/partners/WT.png"/></div>
-                            <div data-aos="zoom-in" data-aos-duration="1000"><img src="assets/image/partners/Gorilla.png"/>
-                            </div>
-                            <div data-aos="zoom-in" data-aos-duration="2000"><img src="assets/image/partners/olimp.png"/></div>
-                            <div data-aos="zoom-in" data-aos-duration="2500"><img src="assets/image/partners/green.png"/></div>
-                            <div data-aos="zoom-in" data-aos-duration="3000"><img src="assets/image/partners/mega.png"/></div>
-                            <div data-aos="zoom-in" data-aos-duration="3500"><img src="assets/image/partners/pride.png"/></div>
-                            <div data-aos="zoom-in" data-aos-duration="4000"><img src="assets/image/partners/proper.png"/></div>
-                            <div data-aos="zoom-in" data-aos-duration="4500"><img src="assets/image/partners/pin-up.png"/></div>
-                            <div data-aos="zoom-in" data-aos-duration="5000"><img src="assets/image/partners/flip.png"/></div>
-                            <div data-aos="zoom-in" data-aos-duration="5500"><img src="assets/image/partners/tracca.png"/></div>
-                            <div data-aos="zoom-in" data-aos-duration="6000"><img src="assets/image/partners/ZR.png"/></div>
-                            <div data-aos="zoom-in" data-aos-duration="6500"><img src="assets/image/partners/y.png"/></div>
-                        </div>
-                    </div>
-                    <div class="media-block">
-                        <div class="block-title">
-                            <label data-i18n="MEDIA"></label>
-                        </div>
-                        <div class="flex-space-between block-partners-row media">
-                            <div data-aos="zoom-in" data-aos-duration="500"><img src="assets/image/partners/Yahoo.png"/></div>
-                            <div data-aos="zoom-in" data-aos-duration="1000"><img src="assets/image/partners/be.png"/>
-                            </div>
-                            <div data-aos="zoom-in" data-aos-duration="2000"><img src="assets/image/partners/bitcoin.png"/></div>
-                            <div data-aos="zoom-in" data-aos-duration="2500"><img src="assets/image/partners/tech.png"/></div>
-                            <div data-aos="zoom-in" data-aos-duration="3000"><img src="assets/image/partners/watch.png"/></div>
-                            <div data-aos="zoom-in" data-aos-duration="3500"><img src="assets/image/partners/crypto.png"/></div>
-                            <div data-aos="zoom-in" data-aos-duration="4000"><img src="assets/image/partners/news.png"/></div>
-                            <div data-aos="zoom-in" data-aos-duration="4500"><img src="assets/image/partners/benzin.png"/></div>
-                            <div data-aos="zoom-in" data-aos-duration="5000"><img src="assets/image/partners/IT.png"/></div>
-                            <div data-aos="zoom-in" data-aos-duration="5500"><img src="assets/image/partners/investing.png"/></div>
-                            <div data-aos="zoom-in" data-aos-duration="6000"><img src="assets/image/partners/coin.png"/></div>
-                        </div>
-                    </div>
-
-                    <div class="block-board">
-                        <div class="block-title">
-                            <label>Powered by</label>
-                        </div>
-                        <a href="https://dao.vc" target="_blank" class="block-board-row">
-                            <img src="assets/image/dao.png">
-<!--                            <a href="https://dao.vc" target="_blank">Powered by DAO.vc</a>-->
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="block-subscribe">
-                <div class="block-subscribe-container">
-                    <form class="block-subscribe-form">
-                        <div class="title-md-wrapper">
-                            <label data-i18n="SUBSCRIBE.WELCOME_TO_LEAGUE" class="block-subscribe-title"></label>
-                            <span data-i18n="SUBSCRIBE.GET_EXCLUSIVE_GOODS" class="block-subscribe-text"></span>
-                        </div>
-
-                        <div class="form-group flex-start">
-                            <input placeholder="Введите ваш e-mail" id="email" class="form-input"
-                                   name="email" type="text"/>
-                            <div  data-i18n="SUBSCRIBE.CORRECT_MAIL" class="error"></div>
-                            <div  onclick="sendEmail()" class="block-subscribe-button flex-center">
-                                <a data-i18n="SUBSCRIBE.SUBSCRIBE_BUTTON"></a>
-                            </div>
-                        </div>
-
-                    </form>
-                </div>
-                <div class="subscribe-popup">
-                    <div class="subscribe-popup-container">
-                        <button  onclick="closeSuscbribePopup()" class="close-button"></button>
-                        <div class="subscribe-popup-row flex-space-between align-center">
-                            <div></div>
-                            <div class="subscribe-popup-content">
-                                <label data-i18n="SUBSCRIBE.THANKS_FOR_SUBSCRIBE" class="subscribe-popup-title"></label>
-                                <label data-i18n="SUBSCRIBE.ONE_UNIT" class="subscribe-popup-text"></label>
-                                <div class="subscribe-popup-button flex-center">
-                                    <a data-i18n="SUBSCRIBE.BACK_TO_SITE" onclick="closeSuscbribePopup()" target="_blank"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <footer class="footer">
-                <div  class="medium-container">
-                    <div class="footer-container flex-space-between">
-                        <div class="logo">
-                            <a href="#"><img alt="Logo" src="assets/image/logo.svg"/></a>
-                        </div>
-                        <div class="footer-button-container">
-                            <div class="footer-button flex-center">
-                                <a data-i18n="WHITELIST" href="https://sweepwidget.com/view/35705-tfjgi2p3 " target="_blank"></a>
-                            </div>
-                            <div class="footer-button flex-center">
-                                <a data-i18n="NOTION" href="https://hardcorefc.notion.site/hardcorefc/Hardcore-Fighting-Championship-3e9858fb541f47f8a5c88f7a462ffc9e"
-                                   target="_blank"></a>
-                            </div>
-                        </div>
-
-                        <div class="footer-nav">
-                            <label data-i18n="NAV.NAVIGATION" class="footer-label"></label>
-                            <div class="footer-nav-link">
-                                <a data-i18n="NAV.ECOSYSTEM" href="#platform"></a>
-                            </div>
-                            <div class="footer-nav-link">
-                                <a data-i18n="NAV.TEAM" href="#team"></a>
-                            </div>
-                            <div class="footer-nav-link">
-                                <a data-i18n="NAV.ROADMAP" href="#roadmap"></a>
-                            </div>
-                            <div class="footer-nav-link">
-                                <a data-i18n="NAV.GET_HARDCOIN" href="#view"></a>
-                            </div>
-                            <div class="footer-nav-link">
-                                <a data-i18n="NAV.WHY_INVEST" href="#profitable"></a>
-                            </div>
-                        </div>
-                        <div class="">
-                            <label data-i18n="APP" class="footer-label"></label>
-                            <span class="banner-link">
-                                <a href="https://play.google.com/store/apps/details?id=com.sly13.hardcore&hl=en&gl=US"  target="_blank">
-                                    <div data-aos="zoom-in" data-aos-duration="1200" class="button-google-store aos-init aos-animate"></div>
-                                </a>
-                                <a href="https://apps.apple.com/by/app/fist-fights/id1546482724"  target="_blank">
-                                    <div data-aos="zoom-in" data-aos-duration="1200" class="button-app-store aos-init aos-animate"></div>
-                                </a>
-                            </span>
-                            <div class="footer-row">
-                                <label data-i18n="SOCIAL_LINKS" class="footer-label"></label>
-                                <div class="social-links flex-start">
-                                    <a href="https://medium.com/@Hardcoin" target="_blank" class="mr-3">
-                                        <div class="button-medium"></div>
-                                    </a>
-                                    <a href="https://www.instagram.com/hardcore.fighting/" target="_blank" class="mr-3">
-                                        <div class="button-instagram"></div>
-                                    </a>
-                                    <a href="https://t.me/Hardcoin_chatru" target="_blank" class="mr-3">
-                                        <div class="button-tg"></div>
-                                    </a>
-                                    <a href="http://facebook.com/HHardcoin" target="_blank" class="mr-3">
-                                        <div class="button-facebook"></div>
-                                    </a>
-                                    <a href="https://twitter.com/HHardcoin" target="_blank" class="mr-3">
-                                        <div class="button-twitter"></div>
-                                    </a>
-                                    <a href="https://www.youtube.com/channel/UC1_FrNtrgzFPQVHuwAAR3xQ" target="_blank"
-                                       class="mr-3">
-                                        <div class="button-youtub"></div>
-                                    </a>
-<!--                                    <a href="#">-->
-<!--                                        <div class="button-vk"></div>-->
-<!--                                    </a>-->
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="copyright flex-space-between">
-                        <span data-i18n="ALL_RIGHTS_RECEIVED"></span>
-                        <span data-i18n="CONDITIONS"></span>
-                    </div>
-                </div>
-            </footer>
-    </main>
-<!--    <div class="whitepaper-popup">-->
-<!--        <div class="whitepaper-popup-container">-->
-<!--            <button  onclick="closeWhitepaperPopup()" class="close-button"></button>-->
-<!--            <div class="whitepaper-popup-row flex-center">-->
-<!--                <img src="assets/image/whitepaper-image.png" alt="whitepaper"/>-->
-<!--                <div class="whitepaper-popup-content">-->
-<!--                    <label data-i18n="LOOK_WHITEPAPER" class="whitepaper-popup-title"></label>-->
-<!--                    <label data-i18n="READMORE" class="whitepaper-popup-text"></label>-->
-<!--                    <div class="whitepaper-popup-button flex-center">-->
-<!--                        <a data-i18n="NEXT" href="https://hardcorefc.notion.site/hardcorefc/Hardcore-Fighting-Championship-3e9858fb541f47f8a5c88f7a462ffc9e"-->
-<!--                           target="_blank"></a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
+      </div>
+    </div>
+  </div>
 </div>
 </body>
 </html>
@@ -701,82 +59,80 @@
 
 <script type="text/javascript" src="./assets/js/index.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
-<script src="plugin/owl_carousel/owl.carousel.min.js"></script>
 
 <script type="module">
-    import Translator from "./assets/js/translator.js";
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js";
-    import { getAnalytics, logEvent } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-analytics.js";
+  import Translator from "./assets/js/translator.js";
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js";
+  import { getAnalytics, logEvent } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-analytics.js";
 
-    AOS.init();
+  AOS.init();
 
-    var translator = new Translator({
-        persist: false,
-        languages: ["ru", "en"],
-        defaultLanguage: "en",
-        detectLanguage: true,
-        filesLocation: "./assets/i18n"
-    });
+  var translator = new Translator({
+    persist: false,
+    languages: ["ru", "en"],
+    defaultLanguage: "en",
+    detectLanguage: true,
+    filesLocation: "./assets/i18n"
+  });
 
-    var allowedLanguages = ['en', 'ru'];
-    var langItem = document.querySelectorAll('.lang-item');
-    var langMenu = document.querySelectorAll('.lang-menu');
-    const navLang = navigator.language.substr(0, 2);
-    const lang = allowedLanguages.includes(navLang) ? navLang : 'en';
-    translator._load(lang);
+  var allowedLanguages = ['en', 'ru'];
+  var langItem = document.querySelectorAll('.lang-item');
+  var langMenu = document.querySelectorAll('.lang-menu');
+  const navLang = navigator.language.substr(0, 2);
+  const lang = allowedLanguages.includes(navLang) ? navLang : 'en';
+  translator._load(lang);
 
-    function checkActiveLang(value) {
-        langItem.forEach(item => {
-            if(item.dataset.value === value) {
-                document.getElementById("langImage").src=`./assets/image/background/${value}-phone.png`;
-                item.classList.add('active');
-            } else {
-                item.classList.remove('active');
-            }
-        })
-    }
-
-    checkActiveLang(lang);
-
-    langMenu.forEach(item => {
-        item.addEventListener("click", function(evt) {
-            if (evt.target.tagName === 'SPAN') {
-                translator._load(evt.target.dataset.value);
-                checkActiveLang(evt.target.dataset.value);
-            }
-        });
+  function checkActiveLang(value) {
+    langItem.forEach(item => {
+      if(item.dataset.value === value) {
+        document.getElementById("langImage").src=`./assets/image/background/${value}-phone.png`;
+        item.classList.add('active');
+      } else {
+        item.classList.remove('active');
+      }
     })
+  }
 
-    const firebaseConfig = {
-        apiKey: "AIzaSyCR73lnXgboUWqkcsuRNr-6oZyw_iXQgj4",
-        authDomain: "hardcoin-eec8a.firebaseapp.com",
-        projectId: "hardcoin-eec8a",
-        storageBucket: "hardcoin-eec8a.appspot.com",
-        messagingSenderId: "607708895488",
-        appId: "1:607708895488:web:e0be5d93e2c089e0903be5",
-        measurementId: "G-H7K5V57F4B"
-    };
+  checkActiveLang(lang);
 
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
-
-    $(document).ready(function(){
-      $(".owl-carousel").owlCarousel({
-        autoWidth: true,
-        stageClass: 'dotClass',
-        responsive:{
-          0:{
-            items:1,
-          },
-          600:{
-            items:3,
-          },
-          1000:{
-            items:4,
-          }
-        }
-      });
+  langMenu.forEach(item => {
+    item.addEventListener("click", function(evt) {
+      if (evt.target.tagName === 'SPAN') {
+        translator._load(evt.target.dataset.value);
+        checkActiveLang(evt.target.dataset.value);
+      }
     });
+  })
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyCR73lnXgboUWqkcsuRNr-6oZyw_iXQgj4",
+    authDomain: "hardcoin-eec8a.firebaseapp.com",
+    projectId: "hardcoin-eec8a",
+    storageBucket: "hardcoin-eec8a.appspot.com",
+    messagingSenderId: "607708895488",
+    appId: "1:607708895488:web:e0be5d93e2c089e0903be5",
+    measurementId: "G-H7K5V57F4B"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+
+  $(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+      autoWidth: true,
+      stageClass: 'dotClass',
+      responsive:{
+        0:{
+          items:1,
+        },
+        600:{
+          items:3,
+        },
+        1000:{
+          items:4,
+        }
+      }
+    });
+  });
 </script>

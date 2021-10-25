@@ -1,0 +1,16 @@
+.referral_level {
+    padding: 15px 20px;
+    border-radius: 50%;
+    border: 1px solid #FC1531;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .referral_level {
+        padding: 10px 15px;
+    }
+}
+
+.w-60 {
+    width: 60%;
+}
